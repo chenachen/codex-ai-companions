@@ -1,0 +1,67 @@
+{
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\gemini-chibi\\decoded\\idle.png",
+  "source_sha256": "19bfb3b885beb1405728e857d1c687a198f3d98ca136999f1efdc222990efde4",
+  "baseline_atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\gemini-chibi\\baseline\\spritesheet-current.png",
+  "original_atlas_sha256": "295eb53c9c5091269736ba19aea25b67389bdbc973e372cc7df9d456e2a9b497",
+  "registered_sha256": "9f34a9cb484f64517d514df29c6965b253aea86cdf74cb41a241f46765137891",
+  "uniform_scale": 0.7864583333333334,
+  "raster_scale_xy": [
+    0.7864583333333334,
+    0.7884615384615384
+  ],
+  "translation": [
+    21,
+    44
+  ],
+  "target_idle_height": 151.0,
+  "source_median_height": 192.0,
+  "target_baseline": 202.0,
+  "baseline_after": [
+    203,
+    203,
+    203,
+    203,
+    203,
+    203
+  ],
+  "boxes_after": [
+    [
+      38,
+      51,
+      154,
+      203
+    ],
+    [
+      36,
+      49,
+      156,
+      203
+    ],
+    [
+      36,
+      51,
+      156,
+      203
+    ],
+    [
+      39,
+      49,
+      153,
+      203
+    ],
+    [
+      40,
+      51,
+      152,
+      203
+    ],
+    [
+      38,
+      52,
+      154,
+      203
+    ]
+  ],
+  "same_transform_all_frames": true,
+  "visual_approval_required": true
+}

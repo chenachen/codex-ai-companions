@@ -1,0 +1,90 @@
+{
+  "reviewer": "deepseek_normal_finish",
+  "method": "Independent observation of rebuilt randomized blind-sheet.png and deterministic enlarged copies, without answer key or labeled directions.",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A raised face points slightly right: nose and eye center shift right under the horns. B raised face projects left, exposing the left-facing cheek profile."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A nose and visible eye turn screen-right; B nose and visible eye turn screen-left with hair mass behind the opposite cheek."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A nearly profiled head clearly points right at nose tip; B head profile points left. Torso remains frontal in both."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A level face and nose point right; B level face and nose point left, both with distinct directional eye placement."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A lowered nose and gaze point left; B lowered nose and gaze point right, visible as opposite cheek openings beneath white bangs."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A bowed head retains a rightward nose/eye offset; B bowed head retains a leftward nose/eye offset."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A strongly lowered face remains slightly right of neck center; B lowered face and nose remain left of neck center."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A chin lifted high and eye line aimed above with neck exposed; B chin tucked, crown and bangs more prominent and eyes looking below."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A face lifted and nose tilts upward; B face lowered and chin angled down toward neckline."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A chin below the face-neutral level and upper bangs prominent; B nose and chin raised with gaze above."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "up",
+      "B": "down",
+      "reason": "A rightward nose/eye line has slight upward pitch; B same rightward profile inclines downward, chin closer to collar."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A leftward face raises chin with gaze toward above; B leftward face bows with chin toward neckline."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A face tilts back and nose points up; B forehead leads forward and chin drops below eye line."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A left-facing eye/nose line is slightly below horizontal and chin lowered; B left-facing face lifts its nose and chin, leaving more neck visible."
+    }
+  ]
+}

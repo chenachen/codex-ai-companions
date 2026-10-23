@@ -1,0 +1,8 @@
+{
+  "reviewer": "/root",
+  "evidence": "Approved v2 idle source and row retained byte-for-byte, prior all-six-frame review preserved",
+  "verdict": "pass",
+  "at": "2026-10-23T09:04:12.300536+00:00",
+  "registered_sha256": "08e7d158dc9f4406ead99c7c5807477420ea4da0b9418d8b329636acd5077cee",
+  "source_sha256": "ad7d2d7228eb60ceddbc4005387cb4dcdfcf422247485b82b717666b0abcda3a"
+}

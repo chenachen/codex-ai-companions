@@ -1,0 +1,66 @@
+{
+  "ok": true,
+  "atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\deepseek-normal\\final\\spritesheet-extended.png",
+  "encoded_bytes": 2180050,
+  "sha256": "44db179c97a624c42f17a338b37361fc80e747c5cebf0c8b3aaf0305d4e463d4",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      192,
+      161,
+      192,
+      202
+    ],
+    "airborne_lift_pixels": 41,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      98.0,
+      97.0,
+      96.0,
+      96.5,
+      97.0,
+      97.0,
+      97.5,
+      98.0,
+      96.5,
+      97.0,
+      96.5,
+      96.5,
+      97.5,
+      97.5,
+      97.5,
+      97.5
+    ],
+    "look_widths": [
+      92,
+      92,
+      92,
+      91,
+      90,
+      90,
+      89,
+      90,
+      93,
+      92,
+      93,
+      91,
+      89,
+      91,
+      91,
+      91
+    ],
+    "maximum_center_drift_pixels": 2.5,
+    "maximum_width_ratio": 1.0449438202247192
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning"
+  ]
+}

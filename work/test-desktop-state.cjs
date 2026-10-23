@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');const {spawnSync}=require('node:child_process');
+const {fresh,apply,snapshot}=require('../outputs/desktop-pet/state-core.cjs');const {normalize,toolFailed}=require('../outputs/desktop-pet/hook.cjs');
+const m=fresh();let t=100000;const e=(sessionId,event,extra={})=>apply(m,{sessionId,event,at:++t,source:'hook',turnId:'t1',...extra});
+e('a','UserPromptSubmit');assert.equal(snapshot(m,t).state,'working');
+e('b','UserPromptSubmit');e('a','Stop');assert.equal(snapshot(m,t).state,'working');assert.equal(snapshot(m,t).activeCount,1);
+e('b','PermissionRequest');assert.equal(snapshot(m,t).state,'waiting');
+e('b','PreToolUse',{tool:'Bash'});assert.equal(snapshot(m,t).state,'working');
+e('b','PostToolUse',{toolFailed:true});assert.equal(snapshot(m,t).state,'recovering');assert.equal(snapshot(m,t+8000).state,'working');
+e('b','UserPromptSubmit',{turnId:'t2'});e('b','Stop',{turnId:'t1'});assert.equal(snapshot(m,t).state,'working');
+e('b','Interrupt',{turnId:'t2',reason:'interrupted'});assert.equal(snapshot(m,t).state,'interrupted');assert.equal(snapshot(m,t+17000).state,'idle');
+e('c','UserPromptSubmit');e('c','PreToolUse',{tool:'request_user_input_async'});e('c','Stop');assert.equal(snapshot(m,t).state,'waiting');
+e('c','UserPromptSubmit',{turnId:'t2'});e('c','Stop',{turnId:'t2'});assert.equal(snapshot(m,t).state,'complete');
+assert.equal(toolFailed({exit_code:1}),true);assert.equal(toolFailed({exit_code:0}),false);assert.equal(toolFailed({content:[{type:'text',text:'{"isError":true}'}]}),true);
+const privateInput={hook_event_name:'UserPromptSubmit',session_id:'test',turn_id:'x',prompt:'private prompt',tool_input:{secret:'private'},cwd:'C:/work'};
+const normalized=JSON.stringify(normalize(privateInput));assert(!normalized.includes('private'));
+const testRuntime=path.resolve('work/desktop-hook-test');const r=spawnSync(process.execPath,['outputs/desktop-pet/hook.cjs'],{input:JSON.stringify(privateInput),encoding:'utf8',env:{...process.env,AI_PET_RUNTIME:testRuntime},windowsHide:true});assert.equal(r.status,0);const events=fs.readdirSync(path.join(testRuntime,'queue')).filter(x=>x.endsWith('.json'));assert(events.length>0);const ev=JSON.parse(fs.readFileSync(path.join(testRuntime,'queue',events[events.length-1])));assert.equal(ev.event,'UserPromptSubmit');
+console.log(JSON.stringify({pass:true,checks:['parallel turns','approval wait and resume','recoverable tool error','stale completion isolation','interrupt separate from failure','completion expiry','pending question','prompt omission','real hook stdin/file path'],hookExecutableMs:r.signal||'exited normally'},null,2));

@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "input": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\gemini-normal\\qa\\rows\\idle\\registered-raw.png",
+  "output": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\gemini-normal\\qa\\rows\\idle\\registered.png",
+  "chroma_key": "#00FF00",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 14575,
+  "decontaminated_pixels": 13217,
+  "spill_suppressed_pixels": 13275,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c3": 2537,
+    "r0c0": 2424,
+    "r0c4": 2417,
+    "r0c5": 2410,
+    "r0c1": 2402,
+    "r0c2": 2385
+  },
+  "alpha_preserved": true
+}

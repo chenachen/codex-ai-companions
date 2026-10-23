@@ -1,0 +1,67 @@
+{
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\gemini-normal\\decoded\\running.png",
+  "source_sha256": "8a8c855a012f2d3d2594e69deabdec4aff6c282c06b6eab8b6681db38b7f8b9b",
+  "baseline_atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\gemini-normal\\baseline\\spritesheet-current.png",
+  "original_atlas_sha256": "1340951215448379c0d935dde8044484f3644ed4916696ef0e2cab4b205cb54e",
+  "registered_sha256": "dfb59e33a4f91c46484201cf38f847b0800148cd0377179f6545bbbbdd80c60c",
+  "uniform_scale": 0.9183673469387755,
+  "raster_scale_xy": [
+    0.9166666666666666,
+    0.9182692307692307
+  ],
+  "translation": [
+    8,
+    17
+  ],
+  "target_idle_height": 180.0,
+  "source_median_height": 196.0,
+  "target_baseline": 202.0,
+  "baseline_after": [
+    202,
+    202,
+    202,
+    202,
+    202,
+    202
+  ],
+  "boxes_after": [
+    [
+      48,
+      23,
+      143,
+      202
+    ],
+    [
+      49,
+      22,
+      144,
+      202
+    ],
+    [
+      48,
+      22,
+      143,
+      202
+    ],
+    [
+      48,
+      22,
+      144,
+      202
+    ],
+    [
+      48,
+      23,
+      143,
+      202
+    ],
+    [
+      48,
+      23,
+      144,
+      202
+    ]
+  ],
+  "same_transform_all_frames": true,
+  "visual_approval_required": true
+}

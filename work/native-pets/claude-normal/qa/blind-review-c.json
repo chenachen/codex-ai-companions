@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-left","B":"screen-right","reason":"A抬起的鼻尖、脸部前缘和下巴向左伸，左侧露出颈部；B鼻尖、脸部前缘和下巴向右伸。瞳孔在此尺寸下过小，判断依据是侧脸轮廓与鼻口位置。"},
+    {"pair":"horizontal-2","A":"screen-right","B":"screen-left","reason":"A鼻尖和口部位于头发的右侧边缘，脸朝右上；B鼻尖和口部位于左侧边缘，脸朝左上。下巴均抬起；瞳孔微位移无法单独分辨。"},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A右侧鼻尖和下巴轮廓突出，左侧主要是头发；B左侧鼻尖和下巴轮廓突出，右侧主要是头发。脸面分别转向右与左，眼线接近轻微上仰。"},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"A露出的面部位于头部左侧，鼻尖和下巴向左；B面部位于头部右侧，鼻尖和下巴向右。侧脸轮廓清楚，瞳孔细节很小。"},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"A低头后鼻口和下巴仍朝左，脸缘在刘海左下方；B鼻口和下巴朝右，脸缘在刘海右下方。眼线都略低。"},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"A低下的脸面朝左，鼻尖与下巴落在头发左下缘；B低下的脸面朝右，鼻尖与下巴落在头发右下缘。瞳孔太小，主要依据脸面外缘。"},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","reason":"A深低头时可见鼻口和下半脸向左偏，左侧脸缘露出；B下半脸向右偏，右侧脸缘露出。头发倾斜随脸部方向一致，瞳孔不够清晰。"},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A下巴收向胸前，鼻口下降，眼线受刘海遮挡且头顶可见更多；B下巴和鼻尖上扬，脸面与颈部展开，眼线位置较高。"},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A右侧鼻尖与下巴抬起，颈部露出，脸面朝上；B鼻口向胸前下降，下巴收起，刘海遮住更多眼线，脸面朝右下。"},
+    {"pair":"vertical-3","A":"down","B":"up","reason":"A右侧鼻尖低垂、下巴靠近胸前，眼线在刘海下方；B鼻尖和下巴抬高，脸部前缘向右上展开，眼线较高。"},
+    {"pair":"vertical-4","A":"down","B":"up","reason":"A右侧脸下巴较低，鼻口朝右下，眼线略下压；B鼻尖和下巴轻微抬起、颈部更展开，脸面朝右上。俯仰较轻，仍可由鼻口轮廓分辨。"},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A左转同时低头，下巴收向胸前，鼻口低于刘海；B左转同时仰头，鼻尖和下巴朝上，颈部伸展开，眼线明显抬高。"},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A鼻尖与下巴朝左上，脸面和颈部展开；B鼻口朝左下，下巴贴近胸前，眼线受刘海遮挡。瞳孔细节太小，依据鼻尖和下巴俯仰。"},
+    {"pair":"vertical-7","A":"up","B":"down","reason":"A左侧脸的鼻尖和下巴略上扬，颈部露出，眼线较高；B鼻口与下巴略降低，刘海压住更多眼线，脸面朝左下。"}
+  ]
+}

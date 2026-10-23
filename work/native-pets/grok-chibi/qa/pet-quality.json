@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\grok-chibi\\final\\spritesheet-extended.png",
+  "encoded_bytes": 2760396,
+  "sha256": "9e0ed41741b85bb42e37e6066b15a8e16a07a8709412cd3ddf751ef222470200",
+  "jump": {
+    "idle_baseline": 201,
+    "jump_baselines": [
+      202,
+      188,
+      159,
+      193,
+      202
+    ],
+    "airborne_lift_pixels": 43,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      98.0,
+      96.5,
+      96.5,
+      95.5,
+      96.0,
+      94.5,
+      95.0,
+      95.0,
+      97.5,
+      98.5,
+      99.0,
+      98.5,
+      98.5,
+      99.0,
+      98.5,
+      99.0
+    ],
+    "look_widths": [
+      110,
+      105,
+      105,
+      105,
+      104,
+      105,
+      104,
+      102,
+      111,
+      103,
+      104,
+      103,
+      105,
+      106,
+      105,
+      106
+    ],
+    "maximum_center_drift_pixels": 3.5,
+    "maximum_width_ratio": 1.088235294117647
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 045 accepted with a reviewed warning",
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "157.5->180 diff is a local outlier (2518 pixels vs neighbor average 1502)"
+  ]
+}

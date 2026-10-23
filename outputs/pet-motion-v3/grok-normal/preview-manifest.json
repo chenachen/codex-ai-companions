@@ -1,0 +1,840 @@
+{
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\grok-normal\\final\\spritesheet-extended.png",
+  "sha256": "e98b1cf3643948ecb63702e340fcc38c1886812c45238f38e30a4782523bf0df",
+  "baseline_regression_only": false,
+  "native_idle_ms": [
+    1680,
+    660,
+    660,
+    840,
+    840,
+    1920
+  ],
+  "native_work_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    220
+  ],
+  "native_work_cycles": 3,
+  "native_loop_start_index": 18,
+  "native_work_gif": "One 9060ms captured transition; no GIF repetition. HTML continues idle indefinitely.",
+  "comparison_work_gif": "Replays one work trigger plus one idle cycle; replay is a new demonstration trigger, not client auto-retrigger.",
+  "runtime_evidence": "work/pet-runtime/app-initial-2b6b8063022d.js: onc/nnc=6, inc=rnc*nnc, Ztc default repeats non-idle 3x then idle loopStartIndex",
+  "all_states_timeline": [
+    {
+      "state": "idle",
+      "frame": 0,
+      "time_ms": 0,
+      "duration_ms": 280
+    },
+    {
+      "state": "idle",
+      "frame": 1,
+      "time_ms": 280,
+      "duration_ms": 110
+    },
+    {
+      "state": "idle",
+      "frame": 2,
+      "time_ms": 390,
+      "duration_ms": 110
+    },
+    {
+      "state": "idle",
+      "frame": 3,
+      "time_ms": 500,
+      "duration_ms": 140
+    },
+    {
+      "state": "idle",
+      "frame": 4,
+      "time_ms": 640,
+      "duration_ms": 140
+    },
+    {
+      "state": "idle",
+      "frame": 5,
+      "time_ms": 780,
+      "duration_ms": 320
+    },
+    {
+      "state": "running-right",
+      "frame": 0,
+      "time_ms": 1100,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-right",
+      "frame": 1,
+      "time_ms": 1220,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-right",
+      "frame": 2,
+      "time_ms": 1340,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-right",
+      "frame": 3,
+      "time_ms": 1460,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-right",
+      "frame": 4,
+      "time_ms": 1580,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-right",
+      "frame": 5,
+      "time_ms": 1700,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-right",
+      "frame": 6,
+      "time_ms": 1820,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-right",
+      "frame": 7,
+      "time_ms": 1940,
+      "duration_ms": 220
+    },
+    {
+      "state": "running-left",
+      "frame": 0,
+      "time_ms": 2160,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-left",
+      "frame": 1,
+      "time_ms": 2280,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-left",
+      "frame": 2,
+      "time_ms": 2400,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-left",
+      "frame": 3,
+      "time_ms": 2520,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-left",
+      "frame": 4,
+      "time_ms": 2640,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-left",
+      "frame": 5,
+      "time_ms": 2760,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-left",
+      "frame": 6,
+      "time_ms": 2880,
+      "duration_ms": 120
+    },
+    {
+      "state": "running-left",
+      "frame": 7,
+      "time_ms": 3000,
+      "duration_ms": 220
+    },
+    {
+      "state": "waving",
+      "frame": 0,
+      "time_ms": 3220,
+      "duration_ms": 140
+    },
+    {
+      "state": "waving",
+      "frame": 1,
+      "time_ms": 3360,
+      "duration_ms": 140
+    },
+    {
+      "state": "waving",
+      "frame": 2,
+      "time_ms": 3500,
+      "duration_ms": 140
+    },
+    {
+      "state": "waving",
+      "frame": 3,
+      "time_ms": 3640,
+      "duration_ms": 280
+    },
+    {
+      "state": "jumping",
+      "frame": 0,
+      "time_ms": 3920,
+      "duration_ms": 140
+    },
+    {
+      "state": "jumping",
+      "frame": 1,
+      "time_ms": 4060,
+      "duration_ms": 140
+    },
+    {
+      "state": "jumping",
+      "frame": 2,
+      "time_ms": 4200,
+      "duration_ms": 140
+    },
+    {
+      "state": "jumping",
+      "frame": 3,
+      "time_ms": 4340,
+      "duration_ms": 140
+    },
+    {
+      "state": "jumping",
+      "frame": 4,
+      "time_ms": 4480,
+      "duration_ms": 280
+    },
+    {
+      "state": "failed",
+      "frame": 0,
+      "time_ms": 4760,
+      "duration_ms": 140
+    },
+    {
+      "state": "failed",
+      "frame": 1,
+      "time_ms": 4900,
+      "duration_ms": 140
+    },
+    {
+      "state": "failed",
+      "frame": 2,
+      "time_ms": 5040,
+      "duration_ms": 140
+    },
+    {
+      "state": "failed",
+      "frame": 3,
+      "time_ms": 5180,
+      "duration_ms": 140
+    },
+    {
+      "state": "failed",
+      "frame": 4,
+      "time_ms": 5320,
+      "duration_ms": 140
+    },
+    {
+      "state": "failed",
+      "frame": 5,
+      "time_ms": 5460,
+      "duration_ms": 140
+    },
+    {
+      "state": "failed",
+      "frame": 6,
+      "time_ms": 5600,
+      "duration_ms": 140
+    },
+    {
+      "state": "failed",
+      "frame": 7,
+      "time_ms": 5740,
+      "duration_ms": 240
+    },
+    {
+      "state": "waiting",
+      "frame": 0,
+      "time_ms": 5980,
+      "duration_ms": 150
+    },
+    {
+      "state": "waiting",
+      "frame": 1,
+      "time_ms": 6130,
+      "duration_ms": 150
+    },
+    {
+      "state": "waiting",
+      "frame": 2,
+      "time_ms": 6280,
+      "duration_ms": 150
+    },
+    {
+      "state": "waiting",
+      "frame": 3,
+      "time_ms": 6430,
+      "duration_ms": 150
+    },
+    {
+      "state": "waiting",
+      "frame": 4,
+      "time_ms": 6580,
+      "duration_ms": 150
+    },
+    {
+      "state": "waiting",
+      "frame": 5,
+      "time_ms": 6730,
+      "duration_ms": 260
+    },
+    {
+      "state": "running",
+      "frame": 0,
+      "time_ms": 6990,
+      "duration_ms": 120
+    },
+    {
+      "state": "running",
+      "frame": 1,
+      "time_ms": 7110,
+      "duration_ms": 120
+    },
+    {
+      "state": "running",
+      "frame": 2,
+      "time_ms": 7230,
+      "duration_ms": 120
+    },
+    {
+      "state": "running",
+      "frame": 3,
+      "time_ms": 7350,
+      "duration_ms": 120
+    },
+    {
+      "state": "running",
+      "frame": 4,
+      "time_ms": 7470,
+      "duration_ms": 120
+    },
+    {
+      "state": "running",
+      "frame": 5,
+      "time_ms": 7590,
+      "duration_ms": 220
+    },
+    {
+      "state": "review",
+      "frame": 0,
+      "time_ms": 7810,
+      "duration_ms": 150
+    },
+    {
+      "state": "review",
+      "frame": 1,
+      "time_ms": 7960,
+      "duration_ms": 150
+    },
+    {
+      "state": "review",
+      "frame": 2,
+      "time_ms": 8110,
+      "duration_ms": 150
+    },
+    {
+      "state": "review",
+      "frame": 3,
+      "time_ms": 8260,
+      "duration_ms": 150
+    },
+    {
+      "state": "review",
+      "frame": 4,
+      "time_ms": 8410,
+      "duration_ms": 150
+    },
+    {
+      "state": "review",
+      "frame": 5,
+      "time_ms": 8560,
+      "duration_ms": 280
+    },
+    {
+      "state": "look",
+      "frame": 0,
+      "time_ms": 8840,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 1,
+      "time_ms": 9000,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 2,
+      "time_ms": 9160,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 3,
+      "time_ms": 9320,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 4,
+      "time_ms": 9480,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 5,
+      "time_ms": 9640,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 6,
+      "time_ms": 9800,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 7,
+      "time_ms": 9960,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 8,
+      "time_ms": 10120,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 9,
+      "time_ms": 10280,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 10,
+      "time_ms": 10440,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 11,
+      "time_ms": 10600,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 12,
+      "time_ms": 10760,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 13,
+      "time_ms": 10920,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 14,
+      "time_ms": 11080,
+      "duration_ms": 160
+    },
+    {
+      "state": "look",
+      "frame": 15,
+      "time_ms": 11240,
+      "duration_ms": 160
+    }
+  ],
+  "decoded_gifs": [
+    {
+      "file": "native-idle.gif",
+      "decoded_frames": 6,
+      "decoded_durations_ms": [
+        1680,
+        660,
+        660,
+        840,
+        840,
+        1920
+      ],
+      "total_ms": 6600,
+      "gif_loop": 0,
+      "sha256": "6379a040488dd4b21ba3400e6c667ded10a904c9d7bff6abe2bd0627a1f48e12"
+    },
+    {
+      "file": "native-working-then-idle.gif",
+      "decoded_frames": 24,
+      "decoded_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220,
+        1680,
+        660,
+        660,
+        840,
+        840,
+        1920
+      ],
+      "total_ms": 9060,
+      "gif_loop": null,
+      "sha256": "2494262024526fac6b912e9d7f0dc0413953efc3165a74cd5e7156b415df6e19"
+    },
+    {
+      "file": "comparison-idle.gif",
+      "decoded_frames": 6,
+      "decoded_durations_ms": [
+        1680,
+        660,
+        660,
+        840,
+        840,
+        1920
+      ],
+      "total_ms": 6600,
+      "gif_loop": 0,
+      "sha256": "4483b8a1a87a3f413132a03481037f84f87fa8c2d5f3a06415b1a4fe33eaad72"
+    },
+    {
+      "file": "comparison-running.gif",
+      "decoded_frames": 24,
+      "decoded_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220,
+        1680,
+        660,
+        660,
+        840,
+        840,
+        1920
+      ],
+      "total_ms": 9060,
+      "gif_loop": 0,
+      "sha256": "533c6b349a0ab3ea8e6a439fdfb0f3840c483d447b8b3ba0831ab4f6110bc838"
+    },
+    {
+      "file": "all-states.gif",
+      "decoded_frames": 73,
+      "decoded_durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220,
+        140,
+        140,
+        140,
+        280,
+        140,
+        140,
+        140,
+        140,
+        280,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240,
+        150,
+        150,
+        150,
+        150,
+        150,
+        260,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220,
+        150,
+        150,
+        150,
+        150,
+        150,
+        280,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160
+      ],
+      "total_ms": 11400,
+      "gif_loop": 0,
+      "sha256": "707b3e136b7e9928c2933a54820e47a335b7091a3c325a9d3103f41557b20f65"
+    }
+  ],
+  "decoded_native_frame_order": [
+    {
+      "index": 0,
+      "state": "running",
+      "frame": 0,
+      "time_ms": 0,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.654636863425926
+    },
+    {
+      "index": 1,
+      "state": "running",
+      "frame": 1,
+      "time_ms": 120,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6521267361111112
+    },
+    {
+      "index": 2,
+      "state": "running",
+      "frame": 2,
+      "time_ms": 240,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6533130787037037
+    },
+    {
+      "index": 3,
+      "state": "running",
+      "frame": 3,
+      "time_ms": 360,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6605902777777778
+    },
+    {
+      "index": 4,
+      "state": "running",
+      "frame": 4,
+      "time_ms": 480,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6538266782407407
+    },
+    {
+      "index": 5,
+      "state": "running",
+      "frame": 5,
+      "time_ms": 600,
+      "duration_ms": 220,
+      "decoded_rgb_mean_error": 0.6487413194444445
+    },
+    {
+      "index": 6,
+      "state": "running",
+      "frame": 0,
+      "time_ms": 820,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.654636863425926
+    },
+    {
+      "index": 7,
+      "state": "running",
+      "frame": 1,
+      "time_ms": 940,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6521267361111112
+    },
+    {
+      "index": 8,
+      "state": "running",
+      "frame": 2,
+      "time_ms": 1060,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6533130787037037
+    },
+    {
+      "index": 9,
+      "state": "running",
+      "frame": 3,
+      "time_ms": 1180,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6605902777777778
+    },
+    {
+      "index": 10,
+      "state": "running",
+      "frame": 4,
+      "time_ms": 1300,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6538266782407407
+    },
+    {
+      "index": 11,
+      "state": "running",
+      "frame": 5,
+      "time_ms": 1420,
+      "duration_ms": 220,
+      "decoded_rgb_mean_error": 0.6487413194444445
+    },
+    {
+      "index": 12,
+      "state": "running",
+      "frame": 0,
+      "time_ms": 1640,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.654636863425926
+    },
+    {
+      "index": 13,
+      "state": "running",
+      "frame": 1,
+      "time_ms": 1760,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6521267361111112
+    },
+    {
+      "index": 14,
+      "state": "running",
+      "frame": 2,
+      "time_ms": 1880,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6533130787037037
+    },
+    {
+      "index": 15,
+      "state": "running",
+      "frame": 3,
+      "time_ms": 2000,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6605902777777778
+    },
+    {
+      "index": 16,
+      "state": "running",
+      "frame": 4,
+      "time_ms": 2120,
+      "duration_ms": 120,
+      "decoded_rgb_mean_error": 0.6538266782407407
+    },
+    {
+      "index": 17,
+      "state": "running",
+      "frame": 5,
+      "time_ms": 2240,
+      "duration_ms": 220,
+      "decoded_rgb_mean_error": 0.6487413194444445
+    },
+    {
+      "index": 18,
+      "state": "idle",
+      "frame": 0,
+      "time_ms": 2460,
+      "duration_ms": 1680,
+      "decoded_rgb_mean_error": 0.6410662615740741
+    },
+    {
+      "index": 19,
+      "state": "idle",
+      "frame": 1,
+      "time_ms": 4140,
+      "duration_ms": 660,
+      "decoded_rgb_mean_error": 0.605859375
+    },
+    {
+      "index": 20,
+      "state": "idle",
+      "frame": 2,
+      "time_ms": 4800,
+      "duration_ms": 660,
+      "decoded_rgb_mean_error": 0.6039351851851852
+    },
+    {
+      "index": 21,
+      "state": "idle",
+      "frame": 3,
+      "time_ms": 5460,
+      "duration_ms": 840,
+      "decoded_rgb_mean_error": 0.6374855324074075
+    },
+    {
+      "index": 22,
+      "state": "idle",
+      "frame": 4,
+      "time_ms": 6300,
+      "duration_ms": 840,
+      "decoded_rgb_mean_error": 0.601171875
+    },
+    {
+      "index": 23,
+      "state": "idle",
+      "frame": 5,
+      "time_ms": 7140,
+      "duration_ms": 1920,
+      "decoded_rgb_mean_error": 0.6016637731481481
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\gemini-chibi\\final\\spritesheet-extended.png",
+  "encoded_bytes": 2801633,
+  "sha256": "c78a7b460651ba50c263bcda9e470a67540b7fef0ae049408e2570fc42049049",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      183,
+      163,
+      183,
+      202
+    ],
+    "airborne_lift_pixels": 39,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      96.5,
+      94.5,
+      90.5,
+      92.5,
+      91.0,
+      90.5,
+      90.0,
+      92.5,
+      94.0,
+      96.0,
+      96.0,
+      96.5,
+      95.5,
+      96.5,
+      96.0,
+      96.0
+    ],
+    "look_widths": [
+      109,
+      105,
+      103,
+      105,
+      104,
+      97,
+      96,
+      99,
+      110,
+      106,
+      106,
+      103,
+      103,
+      105,
+      106,
+      106
+    ],
+    "maximum_center_drift_pixels": 6.0,
+    "maximum_width_ratio": 1.1458333333333333
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "000 has transparent interior hole rows (y=66)",
+    "270->292.5 diff is a local outlier (2115 pixels vs neighbor average 1266)"
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "page_id": "page_824fc252839081918c6e7b7397bc3188",
+    "reference": "library-file:fde1_bGliZmlsZV9mYW9rQ1JpVlZmOV96RUQzbUIwNWp3_FileDrive_73c68585fb8c8191b7a08d581ab33a01",
+    "file_name": "collection-preview-e21b7686d0644dab9f7060d778268544.png",
+    "mime_type": "image/png",
+    "byte_size": 336675,
+    "sha256": "23977ff56f643c77305dd28b1339a3922f4c9c7054d36cb6b0baa3343543b69e",
+    "file_access_confirmed": true,
+    "is_image": true,
+    "markdown": "![五位角色正常版与Q版原生宠物对照](library-file:fde1_bGliZmlsZV9mYW9rQ1JpVlZmOV96RUQzbUIwNWp3_FileDrive_73c68585fb8c8191b7a08d581ab33a01)",
+    "inserted": false,
+    "next_step": "Read the Page and use edit_page with its fresh guards to insert markdown."
+  },
+  {
+    "page_id": "page_824fc252839081918c6e7b7397bc3188",
+    "reference": "library-file:fde1_bGliZmlsZV8wZEVVSk40alRLaG9pUWN2T0tscC13_FileDrive_73c68585fb8c8191b7a08d581ab33a01",
+    "file_name": "README-5ca8c1e40df74e56bacb4c8e51c87e16.md",
+    "mime_type": "text/markdown",
+    "byte_size": 2530,
+    "sha256": "8d06472c9c283c7bc9bae1d1ce827489663a2d75aeba31c5c61a64c239013211",
+    "file_access_confirmed": true,
+    "is_image": false,
+    "markdown": "[十只原生宠物使用说明](library-file:fde1_bGliZmlsZV8wZEVVSk40alRLaG9pUWN2T0tscC13_FileDrive_73c68585fb8c8191b7a08d581ab33a01)",
+    "inserted": false,
+    "next_step": "Read the Page and use edit_page with its fresh guards to insert markdown."
+  },
+  {
+    "page_id": "page_824fc252839081918c6e7b7397bc3188",
+    "reference": "library-file:fde1_bGliZmlsZV91eExRZWx6VGhUQ2ZDdTZEWWdyMDFR_FileDrive_73c68585fb8c8191b7a08d581ab33a01",
+    "file_name": "installation-status-bed77d37bc0e44879512d6dc22ec11ee.json",
+    "mime_type": "application/json",
+    "byte_size": 4138,
+    "sha256": "38a057ad0a4fd6ca36b360b0a30f7a027d2ed750c46d26f32bec857019772563",
+    "file_access_confirmed": true,
+    "is_image": false,
+    "markdown": "[原生安装与校验结果](library-file:fde1_bGliZmlsZV91eExRZWx6VGhUQ2ZDdTZEWWdyMDFR_FileDrive_73c68585fb8c8191b7a08d581ab33a01)",
+    "inserted": false,
+    "next_step": "Read the Page and use edit_page with its fresh guards to insert markdown."
+  }
+]

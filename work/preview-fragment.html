@@ -1,0 +1,89 @@
+<div id="ai-pet-room">
+  <style>
+    #ai-pet-room{color-scheme:light dark;--pr-bg:light-dark(#f8f7f3,#1b1d25);--pr-card:light-dark(#fff,#252832);--pr-fg:light-dark(#293249,#f0f1f5);--pr-sub:light-dark(#687187,#aeb5c6);--pr-line:light-dark(#e4e6ec,#3a4050);--pr-active:light-dark(#27354e,#dce6fa);--pr-on:light-dark(#fff,#1a263c);color:var(--pr-fg);font:14px/1.5 "Segoe UI","Microsoft YaHei",sans-serif;max-width:900px;margin:auto;background:var(--pr-bg);border-radius:22px;padding:24px;box-sizing:border-box}
+    #ai-pet-room *{box-sizing:border-box}#ai-pet-room button,#ai-pet-room select{font:inherit;color:inherit}#ai-pet-room button{cursor:pointer;touch-action:manipulation}
+    #ai-pet-room .pr-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}#ai-pet-room .pr-title{font-size:23px;font-weight:650;letter-spacing:.02em}#ai-pet-room .pr-kicker{font-size:11px;letter-spacing:.14em;color:var(--pr-sub);margin-bottom:3px}#ai-pet-room .pr-draft{font-size:12px;color:var(--pr-sub);white-space:nowrap;margin-right:72px}
+    #ai-pet-room .pr-roster{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin-bottom:18px}#ai-pet-room .pr-person{display:flex;align-items:center;gap:6px;border:1px solid var(--pr-line);border-radius:13px;background:var(--pr-card);padding:9px 10px;text-align:left;min-width:0}#ai-pet-room .pr-person[aria-pressed=true]{border-color:var(--pr-active);box-shadow:0 0 0 1px var(--pr-active)}#ai-pet-room .pr-person img{width:42px;height:52px;object-fit:contain;flex-shrink:0}#ai-pet-room .pr-person b{font-size:13px;font-weight:600;display:block}#ai-pet-room .pr-person small{font-size:11px;color:var(--pr-sub);display:block}
+    #ai-pet-room .pr-layout{display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:20px}#ai-pet-room .pr-stage{position:relative;border-radius:18px;background:var(--pr-card);overflow:hidden;min-height:463px;display:flex;flex-direction:column;align-items:center;padding:18px 14px 13px}#ai-pet-room .pr-stage:before{content:"";position:absolute;inset:22% 3% 1%;background:radial-gradient(ellipse at center,color-mix(in srgb,var(--pr-tint) 13%,transparent),transparent 70%);pointer-events:none}#ai-pet-room .pr-state-line{display:flex;justify-content:space-between;width:100%;font-size:11px;color:var(--pr-sub);z-index:1}#ai-pet-room .pr-pill{color:var(--pr-fg);display:flex;align-items:center;gap:6px}#ai-pet-room .pr-dot{width:6px;height:6px;border-radius:50%;background:var(--pr-tint)}
+    #ai-pet-room .pr-bubble{z-index:1;position:relative;background:var(--pr-bg);padding:13px 16px;border-radius:15px;min-height:64px;max-width:100%;display:flex;align-items:center;justify-content:center;text-align:center;margin:15px 0 6px;font-size:15px}#ai-pet-room .pr-bubble:after{content:"";position:absolute;bottom:-7px;left:calc(50% - 7px);border-top:8px solid var(--pr-bg);border-left:7px solid transparent;border-right:7px solid transparent}
+    #ai-pet-room .pr-avatar-slot{height:310px;width:100%;position:relative;display:flex;align-items:flex-end;justify-content:center;padding-bottom:8px}#ai-pet-room .pr-avatar{max-width:100%;height:296px;object-fit:contain;object-position:bottom;transform-origin:50% 100%;filter:drop-shadow(0 8px 7px #0000000c);transition:height .25s ease}#ai-pet-room .pr-avatar[data-form=chibi]{height:230px}#ai-pet-room .pr-caption{z-index:1;color:var(--pr-sub);font-size:11px;text-align:center;min-height:18px}
+    #ai-pet-room .pr-avatar[data-state=idle]{animation:pr-breathe 3s ease-in-out infinite}#ai-pet-room .pr-avatar[data-state=working]{animation:pr-think 2.7s ease-in-out infinite}#ai-pet-room .pr-avatar[data-state=complete]{animation:pr-hop 1.7s ease-in-out infinite}#ai-pet-room .pr-avatar[data-state=failed]{animation:pr-shake 3.8s ease-in-out infinite}
+    @keyframes pr-breathe{50%{transform:translateY(-3px)}}@keyframes pr-think{50%{transform:translateY(-2px) rotate(.7deg)}}@keyframes pr-hop{0%,28%,100%{transform:translateY(0)}14%{transform:translateY(-9px)}}@keyframes pr-shake{0%,30%,100%{transform:rotate(0)}8%{transform:rotate(-1.1deg)}18%{transform:rotate(1.1deg)}}
+    #ai-pet-room .pr-panel{display:flex;flex-direction:column;gap:17px}#ai-pet-room .pr-label{font-size:12px;font-weight:600;display:block;margin-bottom:8px}#ai-pet-room .pr-segment{display:flex;gap:4px;padding:4px;background:var(--pr-card);border:1px solid var(--pr-line);border-radius:11px}#ai-pet-room .pr-segment button{flex:1;border:0;border-radius:7px;background:transparent;padding:7px 5px;font-size:12px}#ai-pet-room .pr-segment button[aria-pressed=true]{background:var(--pr-active);color:var(--pr-on)}
+    #ai-pet-room .pr-states{display:grid;gap:6px}#ai-pet-room .pr-state{display:flex;justify-content:space-between;align-items:center;width:100%;padding:9px 11px;border:1px solid var(--pr-line);border-radius:10px;background:var(--pr-card);text-align:left;font-size:12px}#ai-pet-room .pr-state small{color:var(--pr-sub);font-size:11px}#ai-pet-room .pr-state[aria-pressed=true]{background:var(--pr-active);color:var(--pr-on);border-color:var(--pr-active)}#ai-pet-room .pr-state[aria-pressed=true] small{color:inherit;opacity:.7}
+    #ai-pet-room .pr-auto{display:flex;align-items:center;gap:7px;font-size:12px}#ai-pet-room .pr-auto input{accent-color:var(--pr-active);width:16px;height:16px}#ai-pet-room .pr-timing{display:flex;align-items:center;gap:6px;margin-top:8px;font-size:12px;color:var(--pr-sub)}#ai-pet-room select{border:1px solid var(--pr-line);background:var(--pr-card);padding:5px 8px;border-radius:7px;min-width:65px}#ai-pet-room .pr-progress{height:3px;background:var(--pr-line);border-radius:2px;margin-top:10px;overflow:hidden}#ai-pet-room .pr-progress span{height:100%;display:block;background:var(--pr-tint);width:0}
+    #ai-pet-room .pr-demo{width:100%;padding:9px 7px;border:1px solid var(--pr-line);border-radius:10px;background:var(--pr-card);font-size:12px}#ai-pet-room .pr-demo[aria-pressed=true]{background:var(--pr-active);color:var(--pr-on)}#ai-pet-room .pr-foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;color:var(--pr-sub);font-size:11px;margin-top:14px}#ai-pet-room .pr-foot a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+    @media(max-width:590px){#ai-pet-room{padding:15px;border-radius:16px}#ai-pet-room .pr-title{font-size:20px}#ai-pet-room .pr-draft{margin-right:0}#ai-pet-room .pr-layout{grid-template-columns:1fr;gap:15px}#ai-pet-room .pr-roster{gap:6px}#ai-pet-room .pr-person{display:block;text-align:center;padding:7px 3px}#ai-pet-room .pr-person img{width:36px;height:43px;display:block;margin:auto}#ai-pet-room .pr-person b{font-size:12px}#ai-pet-room .pr-person small{display:none}#ai-pet-room .pr-stage{min-height:425px}#ai-pet-room .pr-avatar-slot{height:274px}#ai-pet-room .pr-avatar{height:264px}#ai-pet-room .pr-avatar[data-form=chibi]{height:215px}#ai-pet-room .pr-panel{display:grid;grid-template-columns:1fr 1fr;gap:13px}#ai-pet-room .pr-states{grid-template-columns:1fr 1fr}#ai-pet-room .pr-state{padding:8px;justify-content:center}#ai-pet-room .pr-state small{display:none}#ai-pet-room .pr-panel>div:nth-child(2){grid-column:1 / -1;grid-row:1}#ai-pet-room .pr-demo{grid-column:1 / -1}#ai-pet-room .pr-bubble{font-size:14px}}
+    @media(prefers-reduced-motion:reduce){#ai-pet-room .pr-avatar{animation:none!important;transition:none}}
+  </style>
+  <div class="pr-head"><div><div class="pr-kicker">YOUR AI COMPANIONS</div><div class="pr-title">AI 娘值班室</div></div><div class="pr-draft">形象预览 · v0.2</div></div>
+  <div class="pr-roster" aria-label="选择角色"></div>
+  <div class="pr-layout">
+    <div class="pr-stage">
+      <div class="pr-state-line"><span class="pr-pill"><i class="pr-dot"></i><span data-role="state-label">暂无任务</span></span><span data-role="counter">1 / 10</span></div>
+      <div class="pr-bubble" aria-live="polite" data-role="dialogue">事已至此，先吃饭吧。</div>
+      <div class="pr-avatar-slot"><img class="pr-avatar" data-role="avatar" alt="DeepSeek 鲸鱼娘 Q 版暂无任务" data-form="chibi" data-state="idle"></div>
+      <div class="pr-caption" data-role="identity">圆脸 · 圆蓝眼 · 活泼</div>
+    </div>
+    <div class="pr-panel">
+      <div><span class="pr-label">形态</span><div class="pr-segment" aria-label="选择形态"><button type="button" data-form="normal" aria-pressed="false">正常版</button><button type="button" data-form="chibi" aria-pressed="true">Q 版</button></div></div>
+      <div><span class="pr-label">任务状态预览</span><div class="pr-states"></div></div>
+      <div><label class="pr-auto"><input type="checkbox" data-role="rotate" checked>自动轮换 10 种形态</label><div class="pr-timing"><span>每</span><select data-role="interval" aria-label="形态轮换间隔"><option value="4">4 秒</option><option value="8" selected>8 秒</option><option value="15">15 秒</option></select><span>切换</span></div><div class="pr-progress" aria-hidden="true"><span data-role="progress"></span></div></div>
+      <button class="pr-demo" type="button" data-role="demo" aria-pressed="false">播放任务状态演示</button>
+    </div>
+  </div>
+  <div class="pr-foot"><span data-role="mark">白围裙上的鲸鱼标志</span><span>状态立绘 + 轻动效 · <a data-role="source" target="_blank" rel="noopener noreferrer">社区形象参考</a></span></div>
+  <script>
+  (()=>{
+    const root=document.getElementById('ai-pet-room');
+    const data=__PET_DATA__;
+    const assets=__PET_ASSETS__;
+    const q=s=>root.querySelector(s);
+    const ids=data.characters.map(c=>c.id), forms=['chibi','normal']; const totalForms=ids.length*forms.length;
+    const stateIds=data.states.map(s=>s.id);
+    let selected={character:'deepseek',form:'chibi',state:'idle',rotationSeconds:8,rotate:true,demo:false};
+    let lastRotate=performance.now(),lastDemo=performance.now(),demoIndex=0;
+    const demoSequence=[['idle',2500],['working',4500],['complete',3000],['idle',2000],['working',4500],['failed',3500]];
+    const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
+    if(motion.matches)selected.rotate=false;
+    const restore=s=>{if(!s)return;const p=s.privateContent||s; if(ids.includes(p.character))selected.character=p.character;if(forms.includes(p.form))selected.form=p.form;if(stateIds.includes(p.state))selected.state=p.state;if([4,8,15].includes(p.rotationSeconds))selected.rotationSeconds=p.rotationSeconds;if(typeof p.rotate==='boolean')selected.rotate=p.rotate;if(typeof p.demo==='boolean')selected.demo=p.demo;};
+    restore(window.openai?.widgetState);
+    const persist=()=>{window.openai?.setWidgetState?.({modelContent:{character:selected.character,form:selected.form,state:selected.state},privateContent:{...selected}})?.catch(()=>{});};
+    q('.pr-roster').innerHTML=data.characters.map(c=>'<button type="button" class="pr-person cursor-interaction" data-character="'+c.id+'" aria-pressed="false"><img alt="" src="'+assets[c.id+'-chibi-idle']+'"><span><b>'+c.name+'</b><small>'+c.nickname+'</small></span></button>').join('');
+    q('.pr-states').innerHTML=data.states.map(s=>'<button type="button" class="pr-state cursor-interaction" data-state="'+s.id+'" aria-pressed="false"><span>'+s.label+'</span><small>'+s.hint+'</small></button>').join('');
+    root.querySelectorAll('button').forEach(b=>b.classList.add('cursor-interaction'));
+    function render(){
+      const c=data.characters.find(c=>c.id===selected.character),s=data.states.find(s=>s.id===selected.state);
+      root.style.setProperty('--pr-tint',c.color);
+      const a=q('[data-role=avatar]');const key=[c.id,selected.form,selected.state].join('-');
+      a.src=assets[key];a.alt=c.name+' '+c.nickname+' '+(selected.form==='chibi'?'Q 版':'正常版')+' · '+s.label;a.dataset.form=selected.form;a.dataset.state=selected.state;
+      q('[data-role=dialogue]').textContent=c[selected.form][selected.state];q('[data-role=state-label]').textContent=s.label;
+      q('[data-role=counter]').textContent=(ids.indexOf(c.id)*2+forms.indexOf(selected.form)+1)+' / '+totalForms;
+      q('[data-role=identity]').textContent=c.face;q('[data-role=mark]').textContent=c.mark;q('[data-role=source]').href=c.source;
+      root.querySelectorAll('[data-character]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.character===c.id)));
+      root.querySelectorAll('button[data-form]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.form===selected.form)));
+      root.querySelectorAll('button[data-state]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.state===selected.state)));
+      q('[data-role=rotate]').checked=selected.rotate;q('[data-role=interval]').value=String(selected.rotationSeconds);
+      q('[data-role=demo]').textContent=selected.demo?'暂停状态演示':'播放任务状态演示';q('[data-role=demo]').setAttribute('aria-pressed',String(selected.demo));
+    }
+    function manual(){lastRotate=performance.now();selected.demo=false;render();persist();}
+    root.querySelectorAll('[data-character]').forEach(b=>b.addEventListener('click',()=>{selected.character=b.dataset.character;manual();}));
+    root.querySelectorAll('button[data-form]').forEach(b=>b.addEventListener('click',()=>{selected.form=b.dataset.form;manual();}));
+    root.querySelectorAll('button[data-state]').forEach(b=>b.addEventListener('click',()=>{selected.state=b.dataset.state;manual();}));
+    q('[data-role=rotate]').addEventListener('change',e=>{selected.rotate=e.target.checked;lastRotate=performance.now();render();persist();});
+    q('[data-role=interval]').addEventListener('change',e=>{selected.rotationSeconds=Number(e.target.value);lastRotate=performance.now();render();persist();});
+    q('[data-role=demo]').addEventListener('click',()=>{selected.demo=!selected.demo;demoIndex=0;lastDemo=performance.now();if(selected.demo)selected.state='idle';render();persist();});
+    window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState){restore(e.detail.globals.widgetState);lastRotate=performance.now();render();}});
+    document.addEventListener('visibilitychange',()=>{lastRotate=performance.now();lastDemo=performance.now();});
+    render();
+    setInterval(()=>{
+      if(document.hidden)return;
+      const now=performance.now();let changed=false;
+      if(selected.rotate&&now-lastRotate>=selected.rotationSeconds*1000){const current=ids.indexOf(selected.character)*2+forms.indexOf(selected.form),next=(current+1)%totalForms;selected.character=ids[Math.floor(next/2)];selected.form=forms[next%2];lastRotate=now;changed=true;}
+      if(selected.demo&&now-lastDemo>=demoSequence[demoIndex][1]){demoIndex=(demoIndex+1)%demoSequence.length;selected.state=demoSequence[demoIndex][0];lastDemo=now;changed=true;}
+      q('[data-role=progress]').style.width=selected.rotate?Math.min(100,(now-lastRotate)/(selected.rotationSeconds*10))+'%':'0%';
+      if(changed)render();
+    },150);
+  })();
+  </script>
+</div>

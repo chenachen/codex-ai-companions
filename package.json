@@ -1,0 +1,15 @@
+{
+  "name": "codex-ai-companions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Windows AI companion desktop pet, Codex Hooks bridge, and ten native Pet sprites",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node work/build-desktop.cjs",
+    "start": "node work/start-desktop.cjs",
+    "hooks:install": "node work/install-desktop-hooks.cjs",
+    "test": "node work/test-desktop-state.cjs && node work/check-caption-deck.cjs",
+    "preview:build": "node work/build-preview.cjs"
+  },
+  "devDependencies": { "sharp": "^0.34.5" }
+}

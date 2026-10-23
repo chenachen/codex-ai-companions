@@ -1,0 +1,119 @@
+{
+  "reviewer": "parent",
+  "source": "final/spritesheet-extended.png",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "verdict": "pass",
+      "observed": "up",
+      "evidence": "Chin lifts centrally and both open blue eyes aim above; nose is centered and upper face tilts upward."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "up and right",
+      "evidence": "Nose moves right of head center while the lifted chin and raised eye line preserve the upward axis."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "up and right",
+      "evidence": "Face yaws right and keeps the nose angled upward, with pupils high to screen-right."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "verdict": "warning",
+      "observed": "up and right",
+      "evidence": "Near right profile retains a slight chin lift and raised eye line; upward pitch is subtle but higher than 090."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "verdict": "pass",
+      "observed": "right",
+      "evidence": "Nose and face project clearly screen-right; eye line and chin are approximately level, frontal torso stationary."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "down and right",
+      "evidence": "Rightward nose remains visible while chin tucks and eye line drops below the right cardinal."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "down and right",
+      "evidence": "More crown is exposed and lower face drops toward collar; nose still projects right."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "down and right",
+      "evidence": "Deep bowed head with small residual right yaw; chin and pupils point down-right."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "verdict": "pass",
+      "observed": "down",
+      "evidence": "Centered chin tucked toward chest, prominent crown and lowered eyes; no lateral yaw."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "verdict": "warning",
+      "observed": "down and left",
+      "evidence": "Bowed head retains prominent crown and low eye line; nose and facial center begin shifting left, a subtle horizontal component."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "down and left",
+      "evidence": "Nose and eyes turn left while chin stays tucked and crown remains forward."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "verdict": "warning",
+      "observed": "down and left",
+      "evidence": "Clearer left yaw and slightly lowered eye line compared with 270; downward component is shallow."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "verdict": "pass",
+      "observed": "left",
+      "evidence": "Nose projects clearly screen-left and gaze follows; chin level, feet and torso stay frontal."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "up and left",
+      "evidence": "Left-oriented face lifts its chin and eyes; nose remains left as upper face opens upward."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "up and left",
+      "evidence": "Both eyes look above-left with chin raised, less lateral yaw than 292.5."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "verdict": "warning",
+      "observed": "up and left",
+      "evidence": "Nearly centered uplifted face keeps a small leftward nose/gaze offset before returning to upward cardinal."
+    }
+  ],
+  "continuityReview": "Parent inspected the final labeled 16-pose sheet and all-state contact. Feet and torso remain anchored, row boundaries have consistent body scale, original maid headwear/apron whale/tail stay intact. Intermediate near-axis directions are subtle as noted; no visible reversal or clipping."
+}

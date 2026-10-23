@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "input": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\gpt-normal\\qa\\rows\\idle\\registered-raw.png",
+  "output": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\gpt-normal\\qa\\rows\\idle\\registered.png",
+  "chroma_key": "#00FF00",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 12393,
+  "decontaminated_pixels": 11889,
+  "spill_suppressed_pixels": 11889,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c0": 2084,
+    "r0c1": 2082,
+    "r0c2": 2081,
+    "r0c3": 2068,
+    "r0c4": 2051,
+    "r0c5": 2027
+  },
+  "alpha_preserved": true
+}

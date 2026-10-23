@@ -1,0 +1,8 @@
+{
+  "reviewer": "/root",
+  "evidence": "Previously reviewed idle pixels retained, with head tilt, blink and hair sway.",
+  "verdict": "pass",
+  "at": "2026-10-23T08:54:24.285487+00:00",
+  "registered_sha256": "446a5f9964e3c43099b00c03f6a3e4fa1fe1b66702b7c01615b06b310fd0ca47",
+  "source_sha256": "a28c198ad6c7f0a635300fbf2da52ef0cc0927e745d51173f2f89ef89dbf0e16"
+}

@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "input": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\claude-chibi\\qa\\rows\\idle\\registered-raw.png",
+  "output": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\claude-chibi\\qa\\rows\\idle\\registered.png",
+  "chroma_key": "#00FFFF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 10669,
+  "decontaminated_pixels": 8852,
+  "spill_suppressed_pixels": 8947,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c1": 2004,
+    "r0c2": 1790,
+    "r0c4": 1783,
+    "r0c3": 1725,
+    "r0c5": 1684,
+    "r0c0": 1683
+  },
+  "alpha_preserved": true
+}

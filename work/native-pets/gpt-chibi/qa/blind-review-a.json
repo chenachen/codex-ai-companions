@@ -1,0 +1,16 @@
+{"pairs":[
+{"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A抬起的鼻尖和下巴朝右，右侧脸轮廓突出；B鼻尖和抬起的脸面朝左，左眼靠近侧脸边缘。"},
+{"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A鼻尖伸向左侧，眼睛朝左上；B面部中心与鼻尖向右偏，右侧脸轮廓更靠近鼻。"},
+{"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A近右侧脸，鼻尖和下巴偏右；B相反，鼻尖和面部朝左，左侧眼睛靠近侧面边缘。"},
+{"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A鼻尖与下巴朝右且右眼透视压窄；B鼻尖向左突出，左侧脸更短。"},
+{"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"A低头时鼻尖仍位于头部中心左侧，左侧脸更接近侧面；B低头的鼻尖与下巴中心偏右。"},
+{"pair":"horizontal-6","A":"screen-right","B":"screen-left","reason":"A低垂眼线和鼻尖向右偏移，右脸轮廓更近；B低垂面部中心和鼻尖偏左。"},
+{"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"两者都深低头；A鼻尖与下巴在头部中心右侧，B鼻尖和眼线中心偏左，脸部倾向相反。"},
+{"pair":"vertical-1","A":"up","B":"down","reason":"A露出抬高的下巴，眼睛向上且面部仰起；B刘海压住眼线、露出更多头顶，下巴内收。"},
+{"pair":"vertical-2","A":"down","B":"up","reason":"A眼睛低垂且鼻尖朝下，头顶面积更大；B鼻尖和下巴升起，目光向上。"},
+{"pair":"vertical-3","A":"up","B":"down","reason":"A鼻尖和脸面向上抬，眼睛看上方；B眼线藏在低垂刘海下，下巴向领口收。"},
+{"pair":"vertical-4","A":"down","B":"up","reason":"A侧转脸部略低垂、眼线靠下并收下巴；B同方向侧脸鼻尖更高、眼睛上望且下巴抬起。"},
+{"pair":"vertical-5","A":"down","B":"up","reason":"A露出较多头顶并向下收脸，眼睛朝下；B脸面明显仰起，鼻尖与下巴高举。"},
+{"pair":"vertical-6","A":"up","B":"down","reason":"A左侧脸朝上，眼睛上望且下巴抬离领口；B左侧脸低头，刘海压低眼线且下巴收向胸前。"},
+{"pair":"vertical-7","A":"up","B":"down","reason":"A眼睛与鼻尖略向上，下巴抬起；B鼻尖低于对应眼线姿态，面部压低且下巴内收。"}
+]}

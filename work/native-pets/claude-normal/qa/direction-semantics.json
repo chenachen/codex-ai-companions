@@ -1,0 +1,119 @@
+{
+  "reviewer": "deepseek_normal_finish",
+  "source": "final/spritesheet-extended.png",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "verdict": "pass",
+      "observed": "up",
+      "evidence": "Orange-haired head lifts centrally above the collar; chin is raised and amber eye line angles upward while the book and dress stay fixed."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "up-right",
+      "evidence": "Face begins yawing toward screen-right, nose projects to that side and raised chin retains upward pitch; both axes remain visible at native size."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "up-right",
+      "evidence": "Nose and visible amber eye point right with the face angled upward; jaw lifts away from the book and neckline."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "verdict": "warning",
+      "observed": "up-right",
+      "evidence": "Near right profile shows an eye and nose line slightly above level, with chin higher than the right cardinal; the upward component is shallow."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "verdict": "pass",
+      "observed": "right",
+      "evidence": "Nose tip and exposed face clearly project screen-right, eye follows that direction, and chin is near level while torso remains frontal."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "down-right",
+      "evidence": "Rightward face stays visible but chin lowers and amber eye line looks below the right cardinal toward the book."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "down-right",
+      "evidence": "More orange crown and bangs are exposed as the head bows; nose and visible cheek continue pointing right."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "verdict": "warning",
+      "observed": "down-right",
+      "evidence": "Head is bowed down-right with lowered chin and eye line; right yaw remains stronger than a near-vertical interpolation, producing a larger head-only change into 180."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "verdict": "pass",
+      "observed": "down",
+      "evidence": "Head bows toward the book and collar, exposing more crown; chin drops and eyes point below, with the same stationary dress and feet."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "verdict": "warning",
+      "observed": "down-left",
+      "evidence": "Bowed face keeps a small leftward nose and cheek offset beneath the bangs while the eye line stays low; lateral cue is subtle."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "down-left",
+      "evidence": "Nose, exposed eye and cheek point down-left; the flower remains behind the near side of the turned head and chin stays lowered."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "verdict": "warning",
+      "observed": "down-left",
+      "evidence": "Face turns left and retains a slight downward nose/eye line compared with 270; downward pitch is subtle."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "verdict": "pass",
+      "observed": "left",
+      "evidence": "Left-facing nose profile and visible amber eye clearly aim screen-left; chin approximately level and frontal clothing remains anchored."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "up-left",
+      "evidence": "Left-facing nose and eye line lift above the cardinal; chin tilts up with more lower face exposed."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "up-left",
+      "evidence": "Nose points above-left with clearly lifted chin and backward head pitch; upper face and gaze follow that diagonal."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "verdict": "warning",
+      "observed": "up-left",
+      "evidence": "Face remains lifted toward above-left, closer to upward pitch but with residual left profile; similar to 315 and a larger head-only step into frontal 000."
+    }
+  ],
+  "continuityReview": "Viewed exact final encoded atlas, labeled native-size direction sheet, all-state contact and randomized blind sheet. Body, held book, skirt and feet remain anchored; all sixteen directions retain the correct quadrants. At 157.5 to 180 and 337.5 to 000, head yaw changes more than adjacent internal steps, but the body scale and base do not jump and direction does not reverse. Near-axis diagonal pitch is subtle as individually recorded. Orange hair, dark flower, book mark and dress stay attached and readable, with no clipped frame."
+}

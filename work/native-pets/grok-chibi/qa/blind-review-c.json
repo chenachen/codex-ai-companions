@@ -1,0 +1,90 @@
+{
+  "reviewer": "deepseek_normal_finish",
+  "method": "Independent randomized blind-sheet inspection only, including deterministic enlarged portions; no labeled directions or key viewed.",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A nose and blue pupils shift slightly screen-right while chin is lifted; B nose, pupils and exposed cheek shift left."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A upper face and pupils point above-right; B nose and upper face point above-left."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A nose profile extends left with gaze following; B nose profile extends right with gaze following."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A nose and eye line face level right; B nose and eye line face level left. Crown and torso retain registration."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A lowered chin and exposed eye remain on head's right side; B lowered face and eye remain on head's left side."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A head bows with nose and blue pupils toward lower-left; B bows with nose and pupils toward lower-right."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A lowered face has a small leftward nose/pupil offset beneath bangs; B has a small rightward offset with chin toward lower-right."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A chin lifts strongly with both blue eyes looking above; B chin tucks down and bangs/crown cover more face while eyes look below."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A raised chin and eye line aim upward; B lowered chin approaches chest with gaze beneath bangs."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A nose and pupils angle up-right with open lower face; B chin and pupils angle downward with more crown exposed."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A right-facing head is slightly bowed, with nose/pupils below horizontal; B same right-facing head lifts chin and pupils above horizontal."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A left-facing face tilts back with eyes above and raised chin; B left-facing face tilts down with chin near collar."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A nose/eye line angles up-left and lower jaw is exposed; B nose/eye line angles down-left and upper bangs are prominent."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A left profile has downward nose angle and lower chin; B left profile raises nose and eye line with chin higher."
+    }
+  ]
+}

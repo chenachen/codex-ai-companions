@@ -1,0 +1,119 @@
+{
+  "verified_at": "2026-10-23T05:07:29.676Z",
+  "active_pet_id": "pet_6adabb20ce048191858331ce91d7bec5",
+  "cursor": null,
+  "pets": [
+    {
+      "id": "codex",
+      "name": "Codex",
+      "description": "The original Codex companion.",
+      "is_active": false,
+      "is_custom": false
+    },
+    {
+      "id": "dewey",
+      "name": "Dewey",
+      "description": "A calm companion for focused workspace days",
+      "is_active": false,
+      "is_custom": false
+    },
+    {
+      "id": "fireball",
+      "name": "Fireball",
+      "description": "Hot path energy for fast iteration.",
+      "is_active": false,
+      "is_custom": false
+    },
+    {
+      "id": "hoots",
+      "name": "Hoots",
+      "description": "A sharp-eyed owl for polished work in a blink.",
+      "is_active": false,
+      "is_custom": false
+    },
+    {
+      "id": "rocky",
+      "name": "Rocky",
+      "description": "A steady rock for when the inbox gets out of control",
+      "is_active": false,
+      "is_custom": false
+    },
+    {
+      "id": "seedy",
+      "name": "Seedy",
+      "description": "Small green shoots for new ideas.",
+      "is_active": false,
+      "is_custom": false
+    },
+    {
+      "id": "stacky",
+      "name": "Stacky",
+      "description": "A balanced stack for deep work.",
+      "is_active": false,
+      "is_custom": false
+    },
+    {
+      "id": "bsod",
+      "name": "BSOD",
+      "description": "A tiny blue-screen gremlin.",
+      "is_active": false,
+      "is_custom": false
+    },
+    {
+      "id": "null-signal",
+      "name": "Null Signal",
+      "description": "Quiet signal from the void.",
+      "is_active": false,
+      "is_custom": false
+    },
+    {
+      "id": "pet_6adaea8ff2188191b74a81cf69bc18f3",
+      "name": "Claude 娘 · Q版",
+      "description": "Claude 娘 · Q版，保留角色脸型、服饰与专属标志的原生动画伙伴。",
+      "is_active": false,
+      "is_custom": true
+    },
+    {
+      "id": "pet_6adaea2255908191940045f51f71a140",
+      "name": "Gemini 双子猫娘 · Q版",
+      "description": "Gemini 双子猫娘 · Q版，保留角色脸型、服饰与专属标志的原生动画伙伴。",
+      "is_active": false,
+      "is_custom": true
+    },
+    {
+      "id": "pet_6adae90d791481919bd873a25185b093",
+      "name": "Claude 娘 · 正常版",
+      "description": "Claude 娘 · 正常版，保留角色脸型、服饰与专属标志的原生动画伙伴。",
+      "is_active": false,
+      "is_custom": true
+    },
+    {
+      "id": "pet_6adae5b747a08191bc65b8ef4a712ee6",
+      "name": "GPT 龙娘 · 正常版",
+      "description": "GPT 龙娘 · 正常版，保留角色脸型、服饰与专属标志的原生动画伙伴。",
+      "is_active": false,
+      "is_custom": true
+    },
+    {
+      "id": "pet_6adacaf541fc81919d5af7a3e1d03ada",
+      "name": "GPT 龙娘 · Q版",
+      "description": "GPT 龙娘 · Q版，保留角色脸型、服饰与专属标志的原生动画伙伴。",
+      "is_active": false,
+      "is_custom": true
+    },
+    {
+      "id": "pet_6adac65da5e8819183da82c89aa89541",
+      "name": "DeepSeek 鲸鱼娘 · 正常版",
+      "description": "DeepSeek 鲸鱼娘 · 正常版，保留角色脸型、服饰与专属标志的原生动画伙伴。",
+      "is_active": false,
+      "is_custom": true
+    },
+    {
+      "id": "pet_6adabb20ce048191858331ce91d7bec5",
+      "name": "DeepSeek 鲸鱼娘 · Q版",
+      "description": "DeepSeek 鲸鱼娘 · Q版，保留角色脸型、服饰与专属标志的原生动画伙伴。",
+      "is_active": true,
+      "is_custom": true
+    }
+  ]
+}

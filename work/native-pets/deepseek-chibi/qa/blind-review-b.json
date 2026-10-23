@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 的鼻尖和嘴部中线偏向画面右侧，右侧眼睛因转头而压窄；B 的鼻口中线轻微偏左，左侧眼睛较窄，瞳孔朝左上方。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的鼻口中线位于头部中心左侧，左眼较窄且瞳孔偏左；B 的鼻尖向右突出，右眼变窄，鼻口中线偏右。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 左侧面部轮廓形成鼻尖投影，左眼明显较窄；B 右侧鼻尖投影和压窄的右眼相反，双眼视线也向右。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 的鼻尖与嘴都靠近左侧面部轮廓，左眼受透视压缩；B 的鼻口中线靠右，右眼受透视压缩，露出的面颊面积偏左。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 鼻尖与嘴部朝右、右眼较窄；B 鼻尖与嘴部朝左、左眼较窄，两者瞳孔方向分别随之朝右和朝左。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "两者都略低头；A 鼻口中线偏右、右眼较短，B 鼻口中线偏左、左眼较短。左右判断来自脸部透视和瞳孔位置。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "两者都低头；A 的鼻口中线和下巴朝右，右眼更窄；B 的鼻口中线轻微偏左，左眼较窄，瞳孔也略向左。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A 头顶占比更大，眼睛与鼻口压在脸的下部，眼睑下压、瞳孔朝下；B 眼睛上移、瞳孔向上，鼻尖抬起，面颊与下巴展开。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A 额头到眼睛的距离较大，鼻口和下巴向下收拢，瞳孔低垂；B 鼻尖向右上抬起，眼睛与瞳孔朝上，脸部下半部更展开。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A 眼线较低、上眼睑压住瞳孔，鼻尖和下巴向下；B 眼睛更高且睁开，瞳孔朝上，鼻尖与面部中线向右上倾。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "up",
+      "B": "down",
+      "reason": "A 鼻尖抬高，瞳孔靠上，下颌展开；B 的额头占比增加，眼线下移，鼻口中线和下巴略向下倾，瞳孔位置更低。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A 双眼与瞳孔上扬，鼻尖上抬，脸部下半部清楚展开；B 眼睛落在脸的下部，上眼睑压低，鼻口和下巴向下收。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A 头顶和额头占比更大，眼睛与鼻口靠下，鼻尖朝左下；B 眼线与瞳孔抬高，鼻尖朝左上，面颊及下颌展开。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A 左向鼻尖略上翘，眼睛较高且瞳孔偏上，下颌更展开；B 眼线、鼻尖和嘴部更低，额头占比增加，头部略向左下俯。"
+    }
+  ]
+}

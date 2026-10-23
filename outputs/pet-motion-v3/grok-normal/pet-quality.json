@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\grok-normal\\final\\spritesheet-extended.png",
+  "encoded_bytes": 3008949,
+  "sha256": "e98b1cf3643948ecb63702e340fcc38c1886812c45238f38e30a4782523bf0df",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      198,
+      165,
+      186,
+      202
+    ],
+    "airborne_lift_pixels": 37,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      95.0,
+      96.0,
+      95.0,
+      95.0,
+      96.0,
+      95.5,
+      96.0,
+      96.0,
+      96.0,
+      96.0,
+      96.0,
+      95.5,
+      96.5,
+      95.5,
+      95.5,
+      95.5
+    ],
+    "look_widths": [
+      104,
+      104,
+      104,
+      104,
+      104,
+      103,
+      104,
+      102,
+      100,
+      100,
+      100,
+      99,
+      99,
+      99,
+      99,
+      99
+    ],
+    "maximum_center_drift_pixels": 1.0,
+    "maximum_width_ratio": 1.0505050505050506
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 045 accepted with a reviewed warning",
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 225 accepted with a reviewed warning",
+    "337.5->000 diff is a local outlier (2229 pixels vs neighbor average 1336)"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-left","B":"screen-right","reason":"A鼻口中线略在头部中心左侧，左眼较窄，视线偏左上；B鼻尖朝右上突出、右眼受透视压缩，面部中线偏右。"},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A鼻尖和瞳孔朝左，脸部中线偏左；B右侧轮廓的鼻尖突出，右眼较窄，下巴朝右。"},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A右侧鼻尖形成明显侧面轮廓，双眼朝右；B鼻口中线偏左，左侧眼睛较窄，瞳孔朝左。"},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"A鼻尖和下巴向左形成侧面，B鼻尖和下巴向右形成侧面，两者远侧眼均被压窄。"},
+    {"pair":"horizontal-5","A":"screen-right","B":"screen-left","reason":"A略低头但鼻尖仍向右突出，右眼较窄；B鼻口与下巴向左，左眼较窄。"},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"A低头后的鼻口中线在头部左侧、瞳孔向左下；B鼻口中线在右侧，瞳孔向右下。"},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","reason":"两者都低头，A下巴与鼻口中线轻微偏左，左眼更窄；B下巴与鼻口中线偏右，右眼更窄。"},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A眼线压低、额顶占比增加、鼻口与下巴收向下方；B瞳孔朝上、鼻尖抬起，下巴和颈前展开。"},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A鼻尖朝右上、下颌抬起并露出颈前，瞳孔上扬；B眼线低且上睑下压，鼻口和下巴朝下。"},
+    {"pair":"vertical-3","A":"up","B":"down","reason":"A右向鼻尖略上翘、瞳孔朝上且下巴抬起；B头顶面积更大、眼线及鼻口下移，下颌内收。"},
+    {"pair":"vertical-4","A":"up","B":"down","reason":"两者都朝右，A鼻尖与下巴略上抬，眼线较高；B鼻尖向右下，眼线落低，下巴向胸口收拢。"},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A额顶更显露、眼睑压低，鼻口和下巴下收；B眼睛与瞳孔向上，鼻尖上抬，脸部下半部展开。"},
+    {"pair":"vertical-6","A":"down","B":"up","reason":"A脸部中线向左下倾，眼线较低且下巴内收；B瞳孔朝左上，鼻尖与下巴抬高，颈前更明显。"},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A鼻尖朝左下，眼线低，额顶占比增加；B鼻尖略上翘、眼线与瞳孔更高，下颌向上展开。"}
+  ]
+}

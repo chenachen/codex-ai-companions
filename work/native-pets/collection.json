@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "expectedPets": 10,
+  "runs": [
+    {
+      "id": "deepseek-chibi",
+      "name": "DeepSeek 鲸鱼娘 · Q版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\deepseek-chibi",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\deepseek-chibi-idle.png",
+      "status": "created",
+      "nativePetId": "pet_6adabb20ce048191858331ce91d7bec5"
+    },
+    {
+      "id": "deepseek-normal",
+      "name": "DeepSeek 鲸鱼娘 · 正常版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\deepseek-normal",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\deepseek-normal-idle.png",
+      "status": "created",
+      "nativePetId": "pet_6adac65da5e8819183da82c89aa89541"
+    },
+    {
+      "id": "gpt-chibi",
+      "name": "GPT 龙娘 · Q版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\gpt-chibi",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\gpt-chibi-idle.png",
+      "status": "created",
+      "nativePetId": "pet_6adacaf541fc81919d5af7a3e1d03ada"
+    },
+    {
+      "id": "gpt-normal",
+      "name": "GPT 龙娘 · 正常版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\gpt-normal",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\gpt-normal-idle.png",
+      "status": "created",
+      "nativePetId": "pet_6adae5b747a08191bc65b8ef4a712ee6"
+    },
+    {
+      "id": "claude-chibi",
+      "name": "Claude 娘 · Q版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\claude-chibi",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\claude-chibi-idle.png",
+      "status": "created",
+      "nativePetId": "pet_6adaea8ff2188191b74a81cf69bc18f3"
+    },
+    {
+      "id": "claude-normal",
+      "name": "Claude 娘 · 正常版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\claude-normal",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\claude-normal-idle.png",
+      "status": "created-selected",
+      "nativePetId": "pet_6adae90d791481919bd873a25185b093"
+    },
+    {
+      "id": "grok-chibi",
+      "name": "Grok 娘 · Q版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\grok-chibi",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\grok-chibi-idle.png",
+      "status": "created",
+      "nativePetId": "pet_6adaeeda09ac8191bfa6652015ed2010"
+    },
+    {
+      "id": "grok-normal",
+      "name": "Grok 娘 · 正常版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\grok-normal",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\grok-normal-idle.png",
+      "status": "created",
+      "nativePetId": "pet_6adaf3240e448191814c7ed4203ce57d"
+    },
+    {
+      "id": "gemini-chibi",
+      "name": "Gemini 双子猫娘 · Q版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\gemini-chibi",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\gemini-chibi-idle.png",
+      "status": "created",
+      "nativePetId": "pet_6adaea2255908191940045f51f71a140"
+    },
+    {
+      "id": "gemini-normal",
+      "name": "Gemini 双子猫娘 · 正常版",
+      "run": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\gemini-normal",
+      "reference": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\outputs\\assets\\gemini-normal-idle.png",
+      "status": "created",
+      "nativePetId": "pet_6adaeff3132c8191bb5509e1d8d60091"
+    }
+  ]
+}

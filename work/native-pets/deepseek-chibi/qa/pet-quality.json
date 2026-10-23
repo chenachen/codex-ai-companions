@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\deepseek-chibi\\final\\spritesheet-extended.png",
+  "encoded_bytes": 2814704,
+  "sha256": "d06e200db324b12d04850dabe082fbe590c494934e9de5e696eef4e71d0bcf6b",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      185,
+      162,
+      188,
+      202
+    ],
+    "airborne_lift_pixels": 40,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.0,
+    "look_centers_x": [
+      94.0,
+      94.5,
+      94.5,
+      94.0,
+      94.0,
+      94.0,
+      94.0,
+      95.5,
+      95.0,
+      95.5,
+      97.0,
+      98.0,
+      98.5,
+      98.0,
+      97.5,
+      97.5
+    ],
+    "look_widths": [
+      138,
+      133,
+      133,
+      132,
+      132,
+      132,
+      132,
+      139,
+      126,
+      123,
+      120,
+      120,
+      123,
+      124,
+      125,
+      129
+    ],
+    "maximum_center_drift_pixels": 3.5,
+    "maximum_width_ratio": 1.1583333333333334
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 045 accepted with a reviewed warning",
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "000->022.5 diff is a local outlier (2411 pixels vs neighbor average 1522)",
+    "225->247.5 diff is a local outlier (1796 pixels vs neighbor average 1170)"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"A鼻尖与抬起的下巴朝右，右侧远眼较窄，瞳孔朝右上；B鼻尖与下巴朝左，左侧远眼较窄，瞳孔朝左上。头部均有仰角。"},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"A左侧脸缘和鼻尖向左突出，左侧远眼受透视压缩，瞳孔朝左上；B右侧脸缘与鼻尖向右突出，右眼较窄，瞳孔朝右上。"},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"A鼻尖和口部在右侧脸缘，右侧远眼狭窄，视线朝右；B鼻尖和口部在左侧脸缘，左侧远眼较窄，视线朝左。两者下巴均稍抬起。"},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"A右侧脸突出，鼻尖朝右，右眼靠近脸缘，瞳孔向右；B左侧脸突出，鼻尖朝左，左眼受透视压窄，瞳孔向左。眼线接近水平。"},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"A下巴收低同时鼻口中心偏左，左眼更靠脸缘且瞳孔左下；B鼻口中心偏右，右侧远眼较窄且瞳孔右下，保持轻微低头。"},
+    {"pair":"horizontal-6","A":"screen-right","B":"screen-left","reason":"A低头露出的下半脸朝右偏，右侧远眼压缩，瞳孔右下；B下半脸与鼻口偏左，左侧远眼更压缩，瞳孔左下。低眼线没有掩盖相反水平朝向。"},
+    {"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"两者都明显收下巴。A小鼻尖、口部和下巴偏右，瞳孔朝右下；B鼻口与下巴偏左，瞳孔朝左下。鼻投影较弱，主要依据可见下半脸位移和远眼压缩。"},
+    {"pair":"vertical-1","A":"up","B":"down","reason":"A下巴抬起、鼻口上扬，脸面展开且瞳孔向上，眼线较高；B下巴收向领口，眼线低且被刘海压住，瞳孔向下，头顶面积增加。"},
+    {"pair":"vertical-2","A":"down","B":"up","reason":"A下巴贴近领口，眼线压低、瞳孔右下，鼻口向下收；B鼻尖与下巴明显抬起，下半脸及颈部展开，瞳孔右上。水平朝向都偏右。"},
+    {"pair":"vertical-3","A":"up","B":"down","reason":"A鼻尖和下巴朝右上，露出较多下半脸，眼线和瞳孔均上扬；B低眼线挤在刘海下，瞳孔右下，下巴收低。"},
+    {"pair":"vertical-4","A":"down","B":"up","reason":"A右侧脸的鼻口和下巴略低，眼线靠下、瞳孔右下；B鼻尖和下巴略上扬，下半脸更展开，眼线与瞳孔较高。俯仰差异较小但方向可辨。"},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A鼻口低于刘海边缘，下巴收向领口，瞳孔左下；B左侧鼻尖与下巴上扬，脸面和颈部展开，瞳孔左上且眼线更高。"},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A抬下巴向左上看，鼻尖上扬、眼线打开，瞳孔较高；B下巴降低，眼线低于刘海，瞳孔左下，鼻口也向下。"},
+    {"pair":"vertical-7","A":"up","B":"down","reason":"A左侧脸的鼻尖和下巴轻微上抬，眼线与瞳孔朝左上；B左侧鼻口略下压、下巴更近领口，眼线和瞳孔较低。两者均左转，垂直方向相反。"}
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "baseline_regression_only": false,
+  "baseline_atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\claude-chibi\\baseline\\spritesheet-current.png",
+  "original_sha256": "1e8650f5c5d2ac7c3209040e4b0e5301791b86b0bc4014da65f63a5ecfe7a9f5",
+  "final_sha256": "24ece4eaf603dad46abe66366c70abe6da1323460117805661ba1962613dfd13",
+  "rows": [
+    {
+      "row": 0,
+      "preserved_required": false,
+      "rgba_equal": false,
+      "before_sha256": "03bcaf33d679ef48deff26230cc4935cdce64c0efbd65f28e1359c11ea7995ef",
+      "after_sha256": "21a05d51f2599ca244364dfb858c9c006269f6e295fb205c7eca6d8e8fc0446d"
+    },
+    {
+      "row": 1,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "e13588a54dc5ad47deeda1f990df6d29fa6db45cd0843bd5920e93916e071ed7",
+      "after_sha256": "e13588a54dc5ad47deeda1f990df6d29fa6db45cd0843bd5920e93916e071ed7"
+    },
+    {
+      "row": 2,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "a59825c00c9ec62ef6a3a008fcd0e0a1e54a385d69cbf9c161a095df973422cb",
+      "after_sha256": "a59825c00c9ec62ef6a3a008fcd0e0a1e54a385d69cbf9c161a095df973422cb"
+    },
+    {
+      "row": 3,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "20c7f760f70833424e283105d131f347972255ad7d87e970df4738dbe706e9f0",
+      "after_sha256": "20c7f760f70833424e283105d131f347972255ad7d87e970df4738dbe706e9f0"
+    },
+    {
+      "row": 4,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "b1ae9f9423dda6e3dadd6d9bb589ea14bc8247651cc782e9403b327046ebcffc",
+      "after_sha256": "b1ae9f9423dda6e3dadd6d9bb589ea14bc8247651cc782e9403b327046ebcffc"
+    },
+    {
+      "row": 5,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "7d0da279c7b61bdf6df7b668f7d783def6b0586e9e56d1c02da2cf6955b34969",
+      "after_sha256": "7d0da279c7b61bdf6df7b668f7d783def6b0586e9e56d1c02da2cf6955b34969"
+    },
+    {
+      "row": 6,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "33c21c27d38da7a4b0bfe17982f1cff0e048ecaaf0cdbf9e5bce709644a418f5",
+      "after_sha256": "33c21c27d38da7a4b0bfe17982f1cff0e048ecaaf0cdbf9e5bce709644a418f5"
+    },
+    {
+      "row": 7,
+      "preserved_required": false,
+      "rgba_equal": false,
+      "before_sha256": "3ca705306fe0a23b6794b92b4971abff25e4d1753b8f6c5a488f8b7216bd1039",
+      "after_sha256": "49a99342ea434a1e54b86c99ee460adb3a2ec0e775df49b0c24859d95a37c415"
+    },
+    {
+      "row": 8,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "862264413bf7ee07ceb9792ab439aa1615f597cad2c59ca4013127dac84eca20",
+      "after_sha256": "862264413bf7ee07ceb9792ab439aa1615f597cad2c59ca4013127dac84eca20"
+    },
+    {
+      "row": 9,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "dbc8d76121774d4aabc2f1aad558346c0e4a2216e851d7a7801d09991820d04f",
+      "after_sha256": "dbc8d76121774d4aabc2f1aad558346c0e4a2216e851d7a7801d09991820d04f"
+    },
+    {
+      "row": 10,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "240e62172b8e953fee067a28eea23b0d7d40b7d06e7a1e390d5c203caee355e7",
+      "after_sha256": "240e62172b8e953fee067a28eea23b0d7d40b7d06e7a1e390d5c203caee355e7"
+    }
+  ],
+  "approved_evidence_atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\claude-chibi\\final\\spritesheet-extended.png",
+  "approved_evidence_to_current_baseline": [
+    {
+      "row": 0,
+      "preserved_required": false,
+      "rgba_equal": true,
+      "before_sha256": "03bcaf33d679ef48deff26230cc4935cdce64c0efbd65f28e1359c11ea7995ef",
+      "after_sha256": "03bcaf33d679ef48deff26230cc4935cdce64c0efbd65f28e1359c11ea7995ef"
+    },
+    {
+      "row": 1,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "e13588a54dc5ad47deeda1f990df6d29fa6db45cd0843bd5920e93916e071ed7",
+      "after_sha256": "e13588a54dc5ad47deeda1f990df6d29fa6db45cd0843bd5920e93916e071ed7"
+    },
+    {
+      "row": 2,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "a59825c00c9ec62ef6a3a008fcd0e0a1e54a385d69cbf9c161a095df973422cb",
+      "after_sha256": "a59825c00c9ec62ef6a3a008fcd0e0a1e54a385d69cbf9c161a095df973422cb"
+    },
+    {
+      "row": 3,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "20c7f760f70833424e283105d131f347972255ad7d87e970df4738dbe706e9f0",
+      "after_sha256": "20c7f760f70833424e283105d131f347972255ad7d87e970df4738dbe706e9f0"
+    },
+    {
+      "row": 4,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "b1ae9f9423dda6e3dadd6d9bb589ea14bc8247651cc782e9403b327046ebcffc",
+      "after_sha256": "b1ae9f9423dda6e3dadd6d9bb589ea14bc8247651cc782e9403b327046ebcffc"
+    },
+    {
+      "row": 5,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "7d0da279c7b61bdf6df7b668f7d783def6b0586e9e56d1c02da2cf6955b34969",
+      "after_sha256": "7d0da279c7b61bdf6df7b668f7d783def6b0586e9e56d1c02da2cf6955b34969"
+    },
+    {
+      "row": 6,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "33c21c27d38da7a4b0bfe17982f1cff0e048ecaaf0cdbf9e5bce709644a418f5",
+      "after_sha256": "33c21c27d38da7a4b0bfe17982f1cff0e048ecaaf0cdbf9e5bce709644a418f5"
+    },
+    {
+      "row": 7,
+      "preserved_required": false,
+      "rgba_equal": true,
+      "before_sha256": "3ca705306fe0a23b6794b92b4971abff25e4d1753b8f6c5a488f8b7216bd1039",
+      "after_sha256": "3ca705306fe0a23b6794b92b4971abff25e4d1753b8f6c5a488f8b7216bd1039"
+    },
+    {
+      "row": 8,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "862264413bf7ee07ceb9792ab439aa1615f597cad2c59ca4013127dac84eca20",
+      "after_sha256": "862264413bf7ee07ceb9792ab439aa1615f597cad2c59ca4013127dac84eca20"
+    },
+    {
+      "row": 9,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "dbc8d76121774d4aabc2f1aad558346c0e4a2216e851d7a7801d09991820d04f",
+      "after_sha256": "dbc8d76121774d4aabc2f1aad558346c0e4a2216e851d7a7801d09991820d04f"
+    },
+    {
+      "row": 10,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "240e62172b8e953fee067a28eea23b0d7d40b7d06e7a1e390d5c203caee355e7",
+      "after_sha256": "240e62172b8e953fee067a28eea23b0d7d40b7d06e7a1e390d5c203caee355e7"
+    }
+  ]
+}

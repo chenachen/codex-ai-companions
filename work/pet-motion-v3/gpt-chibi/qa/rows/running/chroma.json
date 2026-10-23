@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "input": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\gpt-chibi\\qa\\rows\\running\\registered-raw.png",
+  "output": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\gpt-chibi\\qa\\rows\\running\\registered.png",
+  "chroma_key": "#00FF00",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 12749,
+  "decontaminated_pixels": 12094,
+  "spill_suppressed_pixels": 12094,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c4": 2145,
+    "r0c0": 2137,
+    "r0c2": 2137,
+    "r0c5": 2126,
+    "r0c1": 2106,
+    "r0c3": 2098
+  },
+  "alpha_preserved": true
+}

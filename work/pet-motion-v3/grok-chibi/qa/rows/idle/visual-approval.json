@@ -1,0 +1,8 @@
+{
+  "reviewer": "/root",
+  "evidence": "Approved v2 idle retained unchanged with prior visual evidence",
+  "verdict": "pass",
+  "at": "2026-10-23T09:05:58.563518+00:00",
+  "registered_sha256": "a2919b48f4d706b9a80c180a0d4584b904c241bc303a07a45c01155ffd233ecb",
+  "source_sha256": "a95a17cc4b9a3e1266c376808df3fa3ef3af215c1f24bacca6478ee79d3ac3b4"
+}

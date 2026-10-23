@@ -1,0 +1,119 @@
+{
+  "reviewer": "parent",
+  "source": "final/spritesheet-extended.png",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "verdict": "pass",
+      "observed": "up",
+      "evidence": "Chin lifted and nose centered with narrow purple eyes aimed above; body remains front-facing."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "up-right",
+      "evidence": "Nose moves right and chin stays lifted with upper-right gaze."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "verdict": "warning",
+      "observed": "up-right",
+      "evidence": "Strong rightward face yaw with lifted eye line; neighboring upper-right steps are similar."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "verdict": "warning",
+      "observed": "up-right",
+      "evidence": "Right profile has shallow upward pitch, higher chin than 090."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "verdict": "pass",
+      "observed": "right",
+      "evidence": "Clear nose and mouth profile to screen-right with level gaze."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "down-right",
+      "evidence": "Rightward nose retained, chin drops and eyes look down-right."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "down-right",
+      "evidence": "Crown exposed, chin tucked, face and eyes remain offset right."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "down-right",
+      "evidence": "Head bowed deeply toward right with compressed lower face."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "verdict": "pass",
+      "observed": "down",
+      "evidence": "Centered tucked chin, lowered eyes under the fringe and prominent forehead show downward pitch."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "down-left",
+      "evidence": "Downward eye line and tucked chin shift left of the hair center."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "down-left",
+      "evidence": "Nose projects left while forehead tips forward and eyes lower."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "verdict": "warning",
+      "observed": "down-left",
+      "evidence": "Leftward profile with shallow downward eye line relative to 270."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "verdict": "pass",
+      "observed": "left",
+      "evidence": "Nose and open eye clearly point screen-left; head center and shoulders stay fixed."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "up-left",
+      "evidence": "Left nose profile retains raised chin and upward purple gaze."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "up-left",
+      "evidence": "Chin lifts more and eyes aim up-left with less side yaw."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "up-left",
+      "evidence": "Near frontal uplift with a remaining left nose offset and raised eye line."
+    }
+  ],
+  "continuityReview": "Labeled sheet inspected. Source row10 is slightly larger than row9; lower-body alpha gaps require quality-gate assessment. Face remains recognizable throughout."
+}

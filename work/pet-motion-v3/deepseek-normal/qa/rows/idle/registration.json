@@ -1,0 +1,67 @@
+{
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\deepseek-normal\\decoded\\idle.png",
+  "source_sha256": "445b7cb96f3254c8d27f9c7f636527c2e798ec213781f2c58bf1cfe6958142ec",
+  "baseline_atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v2\\deepseek-normal\\baseline\\spritesheet-current.png",
+  "original_atlas_sha256": "1b5c3051fbb6b43deb145b687803e46e0e57b890ba6a1d43eebea1a8a5fd01bc",
+  "registered_sha256": "8b123a6e72847003407d5f827d89a4c0059abe57d01fbd7829ae8d49ead8bcbc",
+  "uniform_scale": 0.8286445012787724,
+  "raster_scale_xy": [
+    0.828125,
+    0.8269230769230769
+  ],
+  "translation": [
+    16,
+    35
+  ],
+  "target_idle_height": 162.0,
+  "source_median_height": 195.5,
+  "target_baseline": 202.0,
+  "baseline_after": [
+    202,
+    202,
+    202,
+    202,
+    202,
+    202
+  ],
+  "boxes_after": [
+    [
+      46,
+      40,
+      145,
+      202
+    ],
+    [
+      47,
+      40,
+      144,
+      202
+    ],
+    [
+      49,
+      41,
+      142,
+      202
+    ],
+    [
+      47,
+      41,
+      144,
+      202
+    ],
+    [
+      50,
+      42,
+      141,
+      202
+    ],
+    [
+      48,
+      40,
+      144,
+      202
+    ]
+  ],
+  "same_transform_all_frames": true,
+  "visual_approval_required": true
+}

@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 鼻尖和下巴朝画面左侧偏移，左侧脸缘凸出；B 鼻尖朝右、右侧脸缘朝外，眼神随之向右上。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 仰头时鼻尖明显朝左，瞳孔与下巴靠左；B 仰头的鼻尖朝右伸，右侧脸与上扬下巴形成右向轮廓。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 鼻尖朝左、脸部露在头发左边且眼神指向左；B 鼻尖向右凸出，近侧眼向右。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 右侧鼻尖突出、下巴朝右；B 鼻尖和眼线朝画面左方，左边脸缘向外。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 略低头仍保留朝右的鼻尖，脸中心偏右；B 鼻尖在画面左侧，低垂下巴也向左偏。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 低头时鼻尖与下巴收向右下，脸露在头部右边；B 眼线和鼻尖偏左，朝左下看。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 深低头的鼻尖及下巴仍轻微偏左；B 深低头的脸偏右，鼻尖和下巴露在右下方。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A 额顶显露且刘海压低，鼻尖与下巴向胸口收；B 鼻尖上翘、下巴抬离领口，双眼朝上。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A 低头使头顶面积增大，眼线和下巴向下；B 鼻尖和下巴抬起，脸朝右上展开。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A 右转脸抬起鼻尖，下巴与衣领间距变大；B 右转脸低垂，刘海和头顶显露更多，下巴收近衣领。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "up",
+      "B": "down",
+      "reason": "A 右向侧脸鼻尖稍上扬、下巴较高，眼线向上；B 鼻尖稍向右下，头顶更显露，下巴下收。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A 左转脸仰起，鼻尖朝左上且下巴抬高；B 左转脸低下，眼线更低、鼻尖与下巴收向胸口。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A 鼻尖朝左上、下巴抬起且颈部露出；B 额头前倾，鼻尖与眼线朝左下、下巴靠近领口。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A 左转的脸明显低垂，头顶增大且下巴贴近胸口；B 左转鼻尖上扬，眼睛与抬起的下巴朝上。"
+    }
+  ]
+}

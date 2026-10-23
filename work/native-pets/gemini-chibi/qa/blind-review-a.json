@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A抬起的鼻尖和下巴偏左，左侧脸轮廓短；B鼻尖与嘴在头中心右侧，脸面朝右上。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A右侧眼与鼻尖接近右轮廓，嘴随头朝右；B鼻尖和下巴向左，脸面朝左上。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A左侧脸鼻尖向左突出；B右侧脸鼻尖向右突出，远侧眼透视收窄。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A鼻尖、嘴和下巴明显向右，右眼靠近侧脸边；B对应面部朝左，左眼靠近轮廓。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A低头时鼻尖和嘴偏左；B低头时鼻尖向右、下巴也偏右。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A刘海下的鼻尖和眼线中心在头中心右方；B低垂脸面中心和下巴朝左。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "深低头中A鼻尖和小嘴仍偏右，B面部中心偏左；两者眼线的透视压缩方向相反。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A露出更多头顶，刘海压住低眼线、下巴内收；B鼻尖与下巴抬起且眼睛向上。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A脸面向上仰、眼睛上望；B头顶突出、眼睛低垂，脸向衣领收。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A下巴压低且刘海覆盖眼睛上部；B鼻尖和下巴上抬，目光明显向上。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A同向侧脸的鼻和下巴较低、眼睛下望；B鼻尖翘起、眼睛上望，头部略仰。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A下巴抬高、脸面朝上；B刘海低垂遮住眼线，鼻尖与下巴下降。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A眼睛位于压低刘海下且下巴内收；B眼睛上望并露出抬起的下巴。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A侧脸眼线和鼻尖稍抬、下巴离领口更远；B对应侧脸眼线低垂，下巴朝胸前收。"
+    }
+  ]
+}

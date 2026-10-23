@@ -1,0 +1,20 @@
+{
+  "reviewer": "gpt_normal_finish",
+  "method": "Independent inspection of randomized unlabeled blind-sheet only; crops enlarged for facial landmarks; no answer key or other verdicts read.",
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","evidence":"A has subtle rightward eye/nose bias while raised; B face clearly turns left."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","evidence":"A lifted face points left; B nose and gaze shift right."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","evidence":"A face surface/nose on right; B turns left."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","evidence":"Clear opposite right and left three-quarter head turns."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","evidence":"A lowered nose/eyes bias left; B lowered face points right."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","evidence":"A lowered face left of crown center; B lowered face right of center."},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","evidence":"Near-down pair has subtle yaw: A nose/eye line left and B right; both principally downward."},
+    {"pair":"vertical-1","A":"down","B":"up","evidence":"A crown visible and chin tucked; B chin raised and eyes upward."},
+    {"pair":"vertical-2","A":"up","B":"down","evidence":"A upward eyes/raised chin, B strong downward head pitch."},
+    {"pair":"vertical-3","A":"down","B":"up","evidence":"A looks into book region with lowered face; B raises nose and gaze."},
+    {"pair":"vertical-4","A":"down","B":"up","evidence":"A chin tucked toward chest, B eye line and nose lifted."},
+    {"pair":"vertical-5","A":"up","B":"down","evidence":"A lifted leftward face; B lowered head/crown showing."},
+    {"pair":"vertical-6","A":"up","B":"down","evidence":"A raised chin and up gaze; B downcast eyes and tucked chin."},
+    {"pair":"vertical-7","A":"up","B":"down","evidence":"A mildly raised face/eye line; B lowered face with crown visible."}
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "reviewer": "blind_review_b - final labeled visual inspection",
+  "source": "final/spritesheet-extended.png",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "The chin is lifted centrally and the lower face opens upward; both pink and gold pupils sit high and aim above the face. The feet and chest remain frontal."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up and slightly right",
+      "verdict": "warning",
+      "evidence": "The nose and mouth center shift slightly screen-right while the chin remains lifted and both pupils look upward. Horizontal yaw is subtle next to the up cardinal."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up and right",
+      "verdict": "pass",
+      "evidence": "The nose projects right of the head center, the right face edge narrows, and the lifted chin and high pink near-eye pupil preserve clear upward pitch."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up and right",
+      "verdict": "pass",
+      "evidence": "A stronger right-facing profile retains a raised chin and upward eye line; the nose aims right and above the level right cardinal."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "evidence": "The nose, mouth and chin form an unmistakable screen-right profile with the visible pink eye looking right. The head turns while hands, torso and boots stay frontal."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down and right",
+      "verdict": "pass",
+      "evidence": "The nose remains rightward but drops below the right cardinal; the chin tucks, upper eyelid lowers and visible pink pupil looks down-right."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down and right",
+      "verdict": "pass",
+      "evidence": "More crown is exposed, the eye line and nose move downward, and the lower face stays on the screen-right half of the head."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down and slightly right",
+      "verdict": "warning",
+      "evidence": "The head bows deeply with the chin close to the chest and eyelids low. The nose and visible facial center retain a small rightward offset; the horizontal cue is weak but visible."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "The crown faces the viewer, the chin lowers toward the chest and the low pink/gold eye line stays broadly centered. Body and feet keep their fixed registration."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down and slightly left",
+      "verdict": "warning",
+      "evidence": "The bowed head keeps a large visible crown and low eye line while the nose and chin begin shifting left. The gold eye remains more visible as the leftward face turn begins."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down and left",
+      "verdict": "pass",
+      "evidence": "The nose projects left of the head center while the chin remains tucked and the visible gold pupil aims down-left under a lowered upper lid."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down and left",
+      "verdict": "warning",
+      "evidence": "The face clearly yaws left and the gold eye looks left; the nose and chin sit slightly lower than in 270, so downward pitch is shallow but retained."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "evidence": "The nose and lower face form a clear screen-left profile and the near gold eye looks left; the chin is approximately level and the torso does not rotate."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up and left",
+      "verdict": "pass",
+      "evidence": "The left-facing nose rises and the chin lifts, with the near gold pupil directed upper-left; the face is higher than the left cardinal."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up and left",
+      "verdict": "pass",
+      "evidence": "The chin and lower face open upward while the nose stays left of center and the gold eye looks above-left. The gaze combines left yaw with pronounced upward pitch."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up and slightly left",
+      "verdict": "warning",
+      "evidence": "The face is nearly upward-facing with a residual leftward nose and pupil offset. It is similar to 315 but remains on the left side before returning to the centered up pose."
+    }
+  ],
+  "continuityReview": "Inspected the exact final atlas, the labeled directions sheet including enlarged faces, and the final contact sheet. Adjacent static poses follow the clockwise right/down/left/up order without a wrong-quadrant reversal. Feet, chest and hands retain their registration; crown/eye-line changes carry pitch. Pink eye remains on the character's anatomical right and gold on anatomical left: right-facing profiles expose pink, left-facing profiles expose gold. Near-axis intermediates are subtle as documented. No final-cell clipping or broken body attachment is visible. Animated loop inspection follows deliverable rendering."
+}

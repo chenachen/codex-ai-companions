@@ -1,0 +1,67 @@
+{
+  "source": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\claude-chibi\\decoded\\running.png",
+  "source_sha256": "bb325cca7fe606ccb42c4261022e111e39ac5de7ae546776e9b6808c6aae8dca",
+  "baseline_atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\claude-chibi\\baseline\\spritesheet-current.png",
+  "original_atlas_sha256": "1e8650f5c5d2ac7c3209040e4b0e5301791b86b0bc4014da65f63a5ecfe7a9f5",
+  "registered_sha256": "668be44de0570f8e7f46fe6d15944651ee7fc815298b654b983487be38aa1ea0",
+  "uniform_scale": 0.7571801566579635,
+  "raster_scale_xy": [
+    0.7552083333333334,
+    0.7548076923076923
+  ],
+  "translation": [
+    24,
+    49
+  ],
+  "target_idle_height": 145.0,
+  "source_median_height": 191.5,
+  "target_baseline": 201.0,
+  "baseline_after": [
+    201,
+    201,
+    200,
+    201,
+    201,
+    201
+  ],
+  "boxes_after": [
+    [
+      35,
+      56,
+      157,
+      201
+    ],
+    [
+      35,
+      56,
+      157,
+      201
+    ],
+    [
+      35,
+      54,
+      157,
+      200
+    ],
+    [
+      35,
+      56,
+      157,
+      201
+    ],
+    [
+      35,
+      56,
+      157,
+      201
+    ],
+    [
+      35,
+      56,
+      157,
+      201
+    ]
+  ],
+  "same_transform_all_frames": true,
+  "visual_approval_required": true
+}

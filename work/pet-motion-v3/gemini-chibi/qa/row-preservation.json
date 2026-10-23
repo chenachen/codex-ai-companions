@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "baseline_regression_only": false,
+  "baseline_atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\pet-motion-v3\\gemini-chibi\\baseline\\spritesheet-current.png",
+  "original_sha256": "295eb53c9c5091269736ba19aea25b67389bdbc973e372cc7df9d456e2a9b497",
+  "final_sha256": "b6864226489371d25e3965bebc94ad3804c1c6f424bc2acfebaab5fc4d81191b",
+  "rows": [
+    {
+      "row": 0,
+      "preserved_required": false,
+      "rgba_equal": false,
+      "before_sha256": "4bdd37e6e76e6e281171f683567219827f2634e16512b218f7990833acdeb67e",
+      "after_sha256": "95fcc0725b90808af9e7afbd4272d83880972a95880162cbb86fef48ce69d35b"
+    },
+    {
+      "row": 1,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "83a5f3bfe6bb70cef2b494df0a88e70da8f05baf2f1f11e65fb52076fb1f3f29",
+      "after_sha256": "83a5f3bfe6bb70cef2b494df0a88e70da8f05baf2f1f11e65fb52076fb1f3f29"
+    },
+    {
+      "row": 2,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "3bef8b72b7ed4053b33828a369b7fd688f5cea6c1b14dec32ab413a5071be8e4",
+      "after_sha256": "3bef8b72b7ed4053b33828a369b7fd688f5cea6c1b14dec32ab413a5071be8e4"
+    },
+    {
+      "row": 3,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "f12aa078716be44076e43aaba3f86bc65ded927ff6fbe1ad85c8aec5ee55e576",
+      "after_sha256": "f12aa078716be44076e43aaba3f86bc65ded927ff6fbe1ad85c8aec5ee55e576"
+    },
+    {
+      "row": 4,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "3a9fae4c98f8c6e63e2ed103d393102c26b5a9d2adfb7e27095ef0b90cceca47",
+      "after_sha256": "3a9fae4c98f8c6e63e2ed103d393102c26b5a9d2adfb7e27095ef0b90cceca47"
+    },
+    {
+      "row": 5,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "d0cf0d9672a6eb40f87841f76240852a8342bd6b92c6078fe192d7872c1ba4cb",
+      "after_sha256": "d0cf0d9672a6eb40f87841f76240852a8342bd6b92c6078fe192d7872c1ba4cb"
+    },
+    {
+      "row": 6,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "87e92e7e9c7fcd68a628152d0ba2a4b44219e3d6b545662cbfad8604d2de8031",
+      "after_sha256": "87e92e7e9c7fcd68a628152d0ba2a4b44219e3d6b545662cbfad8604d2de8031"
+    },
+    {
+      "row": 7,
+      "preserved_required": false,
+      "rgba_equal": false,
+      "before_sha256": "597dc875268dba879fbd61a2dab846e64efaf77848266bcf483b0b8ec3d3c581",
+      "after_sha256": "8a9f3c4e9276aff4511caee2f127605c635490288ed6c50d05535180b09021c2"
+    },
+    {
+      "row": 8,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "940ca5d3633ee09ff7d599c026ff1534a1f4fb1a0e5f92d84df8f601294011d2",
+      "after_sha256": "940ca5d3633ee09ff7d599c026ff1534a1f4fb1a0e5f92d84df8f601294011d2"
+    },
+    {
+      "row": 9,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "299af93b2fe5706af11216a34e830de9954cb78c42eeb41dd2ccb0478af37172",
+      "after_sha256": "299af93b2fe5706af11216a34e830de9954cb78c42eeb41dd2ccb0478af37172"
+    },
+    {
+      "row": 10,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "f4a436aeecaa34980ac42657a0ceec040361e897e003c4f5f4a5672d064890a5",
+      "after_sha256": "f4a436aeecaa34980ac42657a0ceec040361e897e003c4f5f4a5672d064890a5"
+    }
+  ],
+  "approved_evidence_atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\gemini-chibi\\final\\spritesheet-extended.png",
+  "approved_evidence_to_current_baseline": [
+    {
+      "row": 0,
+      "preserved_required": false,
+      "rgba_equal": true,
+      "before_sha256": "4bdd37e6e76e6e281171f683567219827f2634e16512b218f7990833acdeb67e",
+      "after_sha256": "4bdd37e6e76e6e281171f683567219827f2634e16512b218f7990833acdeb67e"
+    },
+    {
+      "row": 1,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "83a5f3bfe6bb70cef2b494df0a88e70da8f05baf2f1f11e65fb52076fb1f3f29",
+      "after_sha256": "83a5f3bfe6bb70cef2b494df0a88e70da8f05baf2f1f11e65fb52076fb1f3f29"
+    },
+    {
+      "row": 2,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "3bef8b72b7ed4053b33828a369b7fd688f5cea6c1b14dec32ab413a5071be8e4",
+      "after_sha256": "3bef8b72b7ed4053b33828a369b7fd688f5cea6c1b14dec32ab413a5071be8e4"
+    },
+    {
+      "row": 3,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "f12aa078716be44076e43aaba3f86bc65ded927ff6fbe1ad85c8aec5ee55e576",
+      "after_sha256": "f12aa078716be44076e43aaba3f86bc65ded927ff6fbe1ad85c8aec5ee55e576"
+    },
+    {
+      "row": 4,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "3a9fae4c98f8c6e63e2ed103d393102c26b5a9d2adfb7e27095ef0b90cceca47",
+      "after_sha256": "3a9fae4c98f8c6e63e2ed103d393102c26b5a9d2adfb7e27095ef0b90cceca47"
+    },
+    {
+      "row": 5,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "d0cf0d9672a6eb40f87841f76240852a8342bd6b92c6078fe192d7872c1ba4cb",
+      "after_sha256": "d0cf0d9672a6eb40f87841f76240852a8342bd6b92c6078fe192d7872c1ba4cb"
+    },
+    {
+      "row": 6,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "87e92e7e9c7fcd68a628152d0ba2a4b44219e3d6b545662cbfad8604d2de8031",
+      "after_sha256": "87e92e7e9c7fcd68a628152d0ba2a4b44219e3d6b545662cbfad8604d2de8031"
+    },
+    {
+      "row": 7,
+      "preserved_required": false,
+      "rgba_equal": true,
+      "before_sha256": "597dc875268dba879fbd61a2dab846e64efaf77848266bcf483b0b8ec3d3c581",
+      "after_sha256": "597dc875268dba879fbd61a2dab846e64efaf77848266bcf483b0b8ec3d3c581"
+    },
+    {
+      "row": 8,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "940ca5d3633ee09ff7d599c026ff1534a1f4fb1a0e5f92d84df8f601294011d2",
+      "after_sha256": "940ca5d3633ee09ff7d599c026ff1534a1f4fb1a0e5f92d84df8f601294011d2"
+    },
+    {
+      "row": 9,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "299af93b2fe5706af11216a34e830de9954cb78c42eeb41dd2ccb0478af37172",
+      "after_sha256": "299af93b2fe5706af11216a34e830de9954cb78c42eeb41dd2ccb0478af37172"
+    },
+    {
+      "row": 10,
+      "preserved_required": true,
+      "rgba_equal": true,
+      "before_sha256": "f4a436aeecaa34980ac42657a0ceec040361e897e003c4f5f4a5672d064890a5",
+      "after_sha256": "f4a436aeecaa34980ac42657a0ceec040361e897e003c4f5f4a5672d064890a5"
+    }
+  ]
+}

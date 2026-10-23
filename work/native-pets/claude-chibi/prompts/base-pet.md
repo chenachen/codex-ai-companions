@@ -1,0 +1,7 @@
+Create one clean full-body reference sprite for ChatGPT pet Claude Claude 娘 · Q版.
+
+Pet identity: Preserve this exact approved anime character identity, face, hair, clothing, original eye design, attached props and explicitly user-requested brand marks: 修长脸 · 棕金杏眼 · 克制; 披肩与书封的橙色放射标志. Preserve the existing chibi head-to-body proportions. Entire full body, attached props, headwear and tail must fit comfortably. No text, no extra characters, no floating symbols, no detached effects. Hold every existing prop in its same hand. Keep clothing tasteful as in the reference. Keep natural head and eye movement around a stationary torso for look directions..
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `auto`: Infer the most appropriate pet-safe style from the user request and reference images, then keep that exact style consistent across every row. User style notes: Clean detailed anime illustration matching the provided reference. Preserve distinct face and identity..
+
+
+Place a single centered pose on a perfectly flat pure cyan #00FFFF chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #00FFFF and close colors out of the pet, props, highlights, and effects.

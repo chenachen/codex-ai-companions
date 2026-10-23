@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "atlas": "C:\\Users\\admin\\Documents\\Codex\\2026-10-22\\pets-plugin-work-pets-openai-curated\\work\\native-pets\\claude-chibi\\final\\spritesheet-extended.png",
+  "encoded_bytes": 2763102,
+  "sha256": "1af70a483ba1acd3b7e507a270c2672ef63db160f449a71c9446a6d04a46aa05",
+  "jump": {
+    "idle_baseline": 201,
+    "jump_baselines": [
+      202,
+      191,
+      164,
+      191,
+      202
+    ],
+    "airborne_lift_pixels": 38,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      98.5,
+      97.5,
+      94.5,
+      93.5,
+      93.5,
+      94.0,
+      93.5,
+      94.5,
+      96.0,
+      98.5,
+      99.0,
+      99.0,
+      98.5,
+      97.5,
+      98.5,
+      99.0
+    ],
+    "look_widths": [
+      119,
+      117,
+      113,
+      111,
+      111,
+      114,
+      115,
+      117,
+      118,
+      113,
+      110,
+      110,
+      113,
+      111,
+      113,
+      114
+    ],
+    "maximum_center_drift_pixels": 3.0,
+    "maximum_width_ratio": 1.0818181818181818
+  },
+  "errors": [],
+  "warnings": [
+    "022.5->045 diff is a local outlier (1714 pixels vs neighbor average 1051)"
+  ]
+}
