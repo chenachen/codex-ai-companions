@@ -1,0 +1,7 @@
+{
+  "id": "codex-ai-companions-deepseek-chibi",
+  "displayName": "DeepSeek 鲸鱼娘 · Q版",
+  "description": "DeepSeek 鲸鱼娘 · Q版，工作时尾巴按回车。",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.png"
+}

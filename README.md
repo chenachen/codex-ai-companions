@@ -1,75 +1,108 @@
 # Codex AI Companions
 
-五位 AI 模型二次元伙伴：DeepSeek 鲸鱼娘、GPT 龙娘、Claude 娘、Grok 娘、Gemini 双子猫娘。每位包含正常版和 Q 版，共十种形态。
+把 AI 娘带进自己的 Codex。DeepSeek 鲸鱼娘、GPT 龙娘、Claude 娘、Grok 娘、Gemini 双子猫娘，各有正常版与 Q 版，共十只原生 Pet。
 
-本仓库保存 Windows 独立桌宠、Codex Hooks 状态桥接、360 条角色台词、十只原生 Pet 的 v3 动作素材，以及继续开发所需的生成源图、提示词和检查记录。
+本仓库提供 **十只 v5 原生 Pet、一条命令导入和动作预览**。
 
-![五位角色全家福](outputs/AI娘全家福-16x9-1920x1080.png)
+![五位角色全家福](docs/images/family.png)
 
-## 两种使用方式
+## 导入自己的 Codex
 
-| | Windows 独立桌宠 | Codex 原生 Pet |
-| --- | --- | --- |
-| 入口 | 本仓库的 WPF 程序 | Codex 的 Pets 功能 |
-| 角色 | 五角色 × 正常/Q 自动轮换 | 一次选中一只 |
-| 台词 | 360 条，按角色、形态和任务状态洗牌 | 原生能力控制 |
-| 状态 | Hooks + 本地会话生命周期事件 | 原生客户端控制 |
-| 动画 | 当前是状态立绘与轻微浮动 | 9 类动作 + 16 个注视方向 |
+需要支持自定义 Pet 的 Codex 桌面客户端，以及 [Node.js 20+](https://nodejs.org/)。只导入原生 Pet，无需安装 npm 依赖。
 
-## 在另一台 Windows 电脑继续
+### 1. 下载并导入
 
-安装 Git、Node.js 20+、Codex 桌面版。编译使用 Windows 自带的 .NET Framework 4.x C# 编译器及 WPF 程序集。
+macOS 终端或 Windows PowerShell 均可运行：
 
-```powershell
-git clone https://github.com/chenachen/codex-ai-companions.git
+```sh
+git clone --depth 1 https://github.com/chenachen/codex-ai-companions.git
 cd codex-ai-companions
-npm ci
+node scripts/import-pets.cjs
+```
+
+也可以在 GitHub 点击 **Code → Download ZIP**，解压后在项目目录运行最后一条命令。
+
+默认导入全部十只。只想要一只，或先看看名字：
+
+```sh
+node scripts/import-pets.cjs --list
+node scripts/import-pets.cjs deepseek-chibi
+node scripts/import-pets.cjs gpt-normal gemini-chibi
+```
+
+| 角色 | 正常版目录名 | Q 版目录名 |
+| --- | --- | --- |
+| DeepSeek 鲸鱼娘 | `deepseek-normal` | `deepseek-chibi` |
+| GPT 龙娘 | `gpt-normal` | `gpt-chibi` |
+| Claude 娘 | `claude-normal` | `claude-chibi` |
+| Grok 娘 | `grok-normal` | `grok-chibi` |
+| Gemini 双子猫娘 | `gemini-normal` | `gemini-chibi` |
+
+### 2. 在客户端选中
+
+打开 **Settings → Pets → Refresh**，选择刚导入的角色。在聊天输入 `/pet` 显示宠物。该入口以 [OpenAI 官方 Pets 文档](https://learn.chatgpt.com/docs/pets)为准。
+
+安装器将 `pet.json` 和 `spritesheet.png` 复制到本机 Pet 目录。默认位置：
+
+- macOS：`~/.codex/pets/codex-ai-companions-<角色目录名>/`
+- Windows：`%USERPROFILE%\.codex\pets\codex-ai-companions-<角色目录名>\`
+
+设置过 `CODEX_HOME` 时，使用该目录下的 `pets/`。终端和桌面客户端需使用相同的 Codex 配置目录。
+
+### 更新、手动导入与移除
+
+重复导入相同素材会跳过。已有同名素材且内容不同时，安装器会停止；确认替换后运行：
+
+```sh
+node scripts/import-pets.cjs --force deepseek-chibi
+```
+
+不安装 Node.js 也能手动导入：从 `pets/` 选择角色，将其中两个文件复制到上述对应目录。以 DeepSeek Q 版为例：
+
+```text
+~/.codex/pets/codex-ai-companions-deepseek-chibi/
+├── pet.json
+└── spritesheet.png
+```
+
+随后在客户端刷新。移除时删除这一个角色目录，再刷新即可。
+
+若角色没有出现，先检查 `pet.json` 是否直接位于角色目录中，避免多套一层文件夹；再检查 `CODEX_HOME` 是否一致。看不到 Pets 设置时，检查桌面客户端是否支持该功能。
+
+## 动作预览
+
+正常版：
+
+![五只正常版工作后进入待机](docs/images/normal.gif)
+
+Q 版：
+
+![五只Q版工作后进入待机](docs/images/chibi.gif)
+
+每只包含九种动作和 16 个注视方向。PNG 图集为 1536×2288，使用 `spriteVersionNumber: 2`；v5 指本项目素材修订号。动画播放速度由客户端控制，GIF 用于预览，原始 PNG 用于导入。
+
+想查看所有状态和深浅背景：
+
+```sh
+npm run preview:native
+```
+
+用浏览器打开生成的 `outputs/preview/native-pets.html`，保留它与仓库其他目录的相对位置。[终稿校验清单](docs/native-pets-manifest.json)记录十张 PNG 的 SHA-256。
+
+## 项目结构与验证
+
+| 目录 | 内容 |
+| --- | --- |
+| `pets/` | 十只 Pet，每只包含 `pet.json` 和 `spritesheet.png` |
+| `scripts/` | 导入器、导入测试和原生动作预览构建器 |
+| `docs/` | 预览图片、素材来源和 PNG 校验清单 |
+
+```sh
 npm test
-npm run build
-npm start
 ```
 
-`npm run build` 从源码生成 `outputs/desktop-pet/AI-Girl-Pet.exe` 和本机 Node 路径配置；`npm start` 创建桌面快捷方式并打开桌宠。源码仓库不包含 EXE、旧机器的安装配置或运行记录。
+测试在临时目录验证导入、重复运行、冲突保护和更新，结束后自动清理，不改动实际安装。预览生成到 `outputs/preview/`，不提交到 Git。修改素材前可查看 [项目约定](AGENTS.md)。
 
-需要接入 Codex 任务状态时，在此电脑单独运行：
+## 许可证与署名
 
-```powershell
-npm run hooks:install
-```
-
-这一步会备份并修改当前用户的 Codex Hooks 配置，保留其他 Hook，登记本项目的七个事件处理器。请使用支持 Hooks 的 Codex 版本。CLI 自动从 Windows 桌面版安装目录查找；必要时指定：
-
-```powershell
-$env:CODEX_CLI_PATH = 'C:\path\to\codex.exe'
-npm run hooks:install
-```
-
-自定义 Codex 配置目录可通过 `CODEX_HOME` 指定。桌宠默认不随开机启动；退出桌宠会结束它启动的桥接进程。更多操作见 [桌宠说明](outputs/desktop-pet/使用说明.md)。
-
-## 原生 Pet 素材
-
-最新版本位于 `outputs/pet-motion-v3/<角色>-<normal|chibi>/spritesheet.png`。每张图集为 1536×2288，单格 192×208，共 73 个有效帧。源素材、提示词与检查记录在 `work/native-pets/`、`work/pet-motion-v3/`。
-
-![十只原生 Pet 待机预览](outputs/pet-motion-v3/all-pets-idle.gif)
-
-[工作三轮后进入待机的时序演示](outputs/pet-motion-v3/all-pets-working-then-idle.gif) · [最终文件校验清单](docs/native-pets-manifest.json)
-
-仓库提供素材，不会自动把 Pet 添加到其他人的账号。使用 Codex Pets 插件按其验证、上传流程导入；同一账号继续编辑已有 Pet 时应更新原 ID，不要重复创建。
-
-**已知原生限制：** 当前查验版本的待机为 6 帧 / 6.6 秒；工作为 6 帧 / 0.82 秒，默认三轮后回待机。素材不能设置 FPS。本版通过减少快速点头和大幅摆动让思考动作平缓，没有修改客户端。
-
-## 开发入口
-
-- `outputs/desktop-pet/DesktopPet.cs`：桌面窗口、角色轮换、台词洗牌、立绘显示。
-- `outputs/desktop-pet/state-core.cjs`：多会话状态聚合。
-- `outputs/desktop-pet/hook.cjs`、`bridge.cjs`：Hook 队列与本地生命周期补充。
-- `work/pet-data.json`：角色与台词源数据；构建时写入桌宠目录。
-- `work/build-preview.cjs`：生成独立 HTML 预览，`npm run preview:build` 后位于 `outputs/preview/ai-pet-room.html`。
-- `work/pet-calm-pipeline.py`：仅更新原生 idle/running 两行，验证其他九行像素保持。
-- [回家继续开发的交接记录](docs/HANDOFF.md)：当前完成状态、依赖、优先待办和资源使用约定。
-
-## 形象与素材来源
-
-这些是社区 AI 模型拟人形象衍生的个人创作，和对应模型厂商无官方隶属关系。角色标志用于识别模型。生成素材及最初社区参考见 [形象与梗来源](outputs/文案与梗来源.md)，最新台词以 [360 条台词库](outputs/desktop-pet/台词库.md) 为准；来源文档保留第一版研究记录。
-
-本仓库不包含账号凭据、会话日志、临时下载授权链接、Codex 客户端代码或客户端补丁。
+代码采用 [MIT](LICENSE)。**角色图片、动画和模型标志不在 MIT 授权范围内**；DeepSeek 相关改编沿用 CC BY-NC-SA 4.0，其他素材按各自来源处理，见 [素材来源与授权](docs/ASSETS.md)。本项目为社区二次创作，与各模型厂商无官方隶属关系。

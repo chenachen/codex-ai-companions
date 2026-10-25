@@ -1,0 +1,7 @@
+{
+  "id": "codex-ai-companions-claude-normal",
+  "displayName": "Claude 娘 · 正常版",
+  "description": "Claude 娘 · 正常版，工作时持书批注。",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.png"
+}

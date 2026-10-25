@@ -1,8 +1,0 @@
-{
-  "reason": "Current native Pet already contains the approved v2 idle. Preserve its exact RGBA pixels while replacing only work.",
-  "current_baseline_sha256": "f7e2258b00c6ed765eacc7c5aca86d5170d2c92f05dc175fe1764b8b4f6b3e8b",
-  "prior_registration_baseline_sha256": "44fc1e4347acb8bde4186326f1482496830e7b6b611eebcc3651a11feb589a9e",
-  "approved_previous_final_sha256": "55c9c6bc5f001e5e3047b8dccc56099a6364c5c75a05cec3ad68b1404cf9058f",
-  "registered_idle_equals_current_and_previous": true,
-  "idle_rgba_sha256": "f6ac73d7655745449e991655580cc395f05e68744727c516e74f37ec575f5d23"
-}

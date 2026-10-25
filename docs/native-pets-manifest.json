@@ -1,5 +1,6 @@
 {
-  "revision": "v3 calm motion",
+  "revision": "v5",
+  "spriteVersionNumber": 2,
   "native_layout": {
     "width": 1536,
     "height": 2288,
@@ -7,115 +8,76 @@
     "cell_height": 208,
     "required_frames": 73
   },
-  "timing_ms": {
-    "idle": [
-      1680,
-      660,
-      660,
-      840,
-      840,
-      1920
-    ],
-    "working": [
-      120,
-      120,
-      120,
-      120,
-      120,
-      220
-    ],
-    "work_repetitions": 3
-  },
   "characters": [
     {
-      "character": "deepseek-chibi",
-      "name": "DeepSeek 鲸鱼娘 · Q版",
-      "spritesheet": "outputs/pet-motion-v3/deepseek-chibi/spritesheet.png",
-      "sha256": "83d0dac19187220164ca26f787daf49e2231b4ebfd3c3cf1449157c1aa048bee",
-      "bytes": 2826711,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
-    },
-    {
-      "character": "deepseek-normal",
-      "name": "DeepSeek 鲸鱼娘 · 正常版",
-      "spritesheet": "outputs/pet-motion-v3/deepseek-normal/spritesheet.png",
-      "sha256": "44db179c97a624c42f17a338b37361fc80e747c5cebf0c8b3aaf0305d4e463d4",
-      "bytes": 2180050,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
+      "character": "gpt-normal",
+      "name": "GPT 龙娘 · 正常版",
+      "spritesheet": "pets/gpt-normal/spritesheet.png",
+      "sha256": "d0f2282e3d29bd25737e0b701a1b073bd8e892a4e27f7f77fd0b9f822e6be584",
+      "bytes": 1974550
     },
     {
       "character": "gpt-chibi",
       "name": "GPT 龙娘 · Q版",
-      "spritesheet": "outputs/pet-motion-v3/gpt-chibi/spritesheet.png",
-      "sha256": "a8ce4b50ee4382ee47029351fd45264c94c613dd341301f6c5b047e510881ebb",
-      "bytes": 3091573,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
-    },
-    {
-      "character": "gpt-normal",
-      "name": "GPT 龙娘 · 正常版",
-      "spritesheet": "outputs/pet-motion-v3/gpt-normal/spritesheet.png",
-      "sha256": "d2cf62d47657d199164e890e27ba3a7aaaeedd94fdac0f0d7ff555838e7715ea",
-      "bytes": 2427769,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
-    },
-    {
-      "character": "claude-chibi",
-      "name": "Claude 娘 · Q版",
-      "spritesheet": "outputs/pet-motion-v3/claude-chibi/spritesheet.png",
-      "sha256": "24ece4eaf603dad46abe66366c70abe6da1323460117805661ba1962613dfd13",
-      "bytes": 2766143,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
+      "spritesheet": "pets/gpt-chibi/spritesheet.png",
+      "sha256": "2c3802ef881671fd99a32ac8cc815fddebb32083bdd96b969f22f79ff3c4cc1c",
+      "bytes": 2640037
     },
     {
       "character": "claude-normal",
       "name": "Claude 娘 · 正常版",
-      "spritesheet": "outputs/pet-motion-v3/claude-normal/spritesheet.png",
-      "sha256": "0cd66711767c4620cda15ffafcbdd9fd09dae302e9b7beedc3b5f16e835e256e",
-      "bytes": 1876825,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
+      "spritesheet": "pets/claude-normal/spritesheet.png",
+      "sha256": "37da72f4924c48a665b598150e45c1429c6d0d65874061f3d69ba6fd4e935ffb",
+      "bytes": 1976805
     },
     {
-      "character": "grok-chibi",
-      "name": "Grok 娘 · Q版",
-      "spritesheet": "outputs/pet-motion-v3/grok-chibi/spritesheet.png",
-      "sha256": "a83c14173ef21c7b917ed3286645743de168d2510335ad01126423f12f33aff7",
-      "bytes": 2773568,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
-    },
-    {
-      "character": "grok-normal",
-      "name": "Grok 娘 · 正常版",
-      "spritesheet": "outputs/pet-motion-v3/grok-normal/spritesheet.png",
-      "sha256": "e98b1cf3643948ecb63702e340fcc38c1886812c45238f38e30a4782523bf0df",
-      "bytes": 3008949,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
-    },
-    {
-      "character": "gemini-chibi",
-      "name": "Gemini 双子猫娘 · Q版",
-      "spritesheet": "outputs/pet-motion-v3/gemini-chibi/spritesheet.png",
-      "sha256": "b6864226489371d25e3965bebc94ad3804c1c6f424bc2acfebaab5fc4d81191b",
-      "bytes": 2812730,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
+      "character": "claude-chibi",
+      "name": "Claude 娘 · Q版",
+      "spritesheet": "pets/claude-chibi/spritesheet.png",
+      "sha256": "e4f95231979977b237b0a2ac31c48ba2284698806519a25f233560354b36907f",
+      "bytes": 2620724
     },
     {
       "character": "gemini-normal",
       "name": "Gemini 双子猫娘 · 正常版",
-      "spritesheet": "outputs/pet-motion-v3/gemini-normal/spritesheet.png",
-      "sha256": "8deda11fd8f0ced7f92a841ee85f0605a48e9d13a5b1c6899864690abb7f4f5c",
-      "bytes": 2649684,
-      "native_validation_passed": true,
-      "stored_rgba_verified_at_delivery": true
+      "spritesheet": "pets/gemini-normal/spritesheet.png",
+      "sha256": "07a59841ea806b7af4c731cb0737d8321a652a1d2df15119b8f7fd21ea5bf542",
+      "bytes": 1886550
+    },
+    {
+      "character": "gemini-chibi",
+      "name": "Gemini 双子猫娘 · Q版",
+      "spritesheet": "pets/gemini-chibi/spritesheet.png",
+      "sha256": "a0e716e0237cd7a65054ad8b4a5375b540488e7ecfc3de10ced488cb8b1b6bd3",
+      "bytes": 2591436
+    },
+    {
+      "character": "deepseek-normal",
+      "name": "DeepSeek 鲸鱼娘 · 正常版",
+      "spritesheet": "pets/deepseek-normal/spritesheet.png",
+      "sha256": "f09f37259fd741e5f0956d1516090e4581ef368eb020c11c4268f3c55b8e0358",
+      "bytes": 1951402
+    },
+    {
+      "character": "deepseek-chibi",
+      "name": "DeepSeek 鲸鱼娘 · Q版",
+      "spritesheet": "pets/deepseek-chibi/spritesheet.png",
+      "sha256": "36d306cdb4899d1d577b7271f4293345bbff01f02d66f9fbd91fa3bc00593905",
+      "bytes": 2469227
+    },
+    {
+      "character": "grok-normal",
+      "name": "Grok 娘 · 正常版",
+      "spritesheet": "pets/grok-normal/spritesheet.png",
+      "sha256": "bc3d298fda24c70035e6f71a5e25b7383a2d78c2e07b8101c0218359e35f18f0",
+      "bytes": 2255015
+    },
+    {
+      "character": "grok-chibi",
+      "name": "Grok 娘 · Q版",
+      "spritesheet": "pets/grok-chibi/spritesheet.png",
+      "sha256": "e9a3a9d402af470b3652d12030ab5362dba5979749cc8d39b58a1073cddf39b3",
+      "bytes": 3215665
     }
   ]
 }
