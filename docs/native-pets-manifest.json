@@ -1,5 +1,5 @@
 {
-  "revision": "v5",
+  "revision": "v5.1",
   "spriteVersionNumber": 2,
   "native_layout": {
     "width": 1536,
@@ -27,43 +27,43 @@
       "character": "claude-normal",
       "name": "Claude 娘 · 正常版",
       "spritesheet": "pets/claude-normal/spritesheet.png",
-      "sha256": "37da72f4924c48a665b598150e45c1429c6d0d65874061f3d69ba6fd4e935ffb",
-      "bytes": 1976805
+      "sha256": "21e27da736af4517c17b01be3ec048251dbc26d214deb40ceccbb630f1573b4c",
+      "bytes": 1948564
     },
     {
       "character": "claude-chibi",
       "name": "Claude 娘 · Q版",
       "spritesheet": "pets/claude-chibi/spritesheet.png",
-      "sha256": "e4f95231979977b237b0a2ac31c48ba2284698806519a25f233560354b36907f",
-      "bytes": 2620724
+      "sha256": "a37ed40b18403b4758950208cae0d88c8603f41b6e83bb6afbdc66bca2883cdd",
+      "bytes": 2621380
     },
     {
       "character": "gemini-normal",
       "name": "Gemini 双子猫娘 · 正常版",
       "spritesheet": "pets/gemini-normal/spritesheet.png",
-      "sha256": "07a59841ea806b7af4c731cb0737d8321a652a1d2df15119b8f7fd21ea5bf542",
-      "bytes": 1886550
+      "sha256": "dfc9bd9997ff20638bace0060b15ee13baed5f42289454f51ad3ee1c4171e90f",
+      "bytes": 1837947
     },
     {
       "character": "gemini-chibi",
       "name": "Gemini 双子猫娘 · Q版",
       "spritesheet": "pets/gemini-chibi/spritesheet.png",
-      "sha256": "a0e716e0237cd7a65054ad8b4a5375b540488e7ecfc3de10ced488cb8b1b6bd3",
-      "bytes": 2591436
+      "sha256": "750394d82b98c2c2748e03ea1c59d706c189cc1f63022e1ca9c4de3954b1708f",
+      "bytes": 2533783
     },
     {
       "character": "deepseek-normal",
       "name": "DeepSeek 鲸鱼娘 · 正常版",
       "spritesheet": "pets/deepseek-normal/spritesheet.png",
-      "sha256": "f09f37259fd741e5f0956d1516090e4581ef368eb020c11c4268f3c55b8e0358",
-      "bytes": 1951402
+      "sha256": "ce86a899025eca2f25277ce12cc7f8ca45ac746d1dd153d4ddb83be40e3ff994",
+      "bytes": 1914634
     },
     {
       "character": "deepseek-chibi",
       "name": "DeepSeek 鲸鱼娘 · Q版",
       "spritesheet": "pets/deepseek-chibi/spritesheet.png",
-      "sha256": "36d306cdb4899d1d577b7271f4293345bbff01f02d66f9fbd91fa3bc00593905",
-      "bytes": 2469227
+      "sha256": "9bd15d4ef8121b883e931e897d7a8c939af678cf1efa71c659e8430cd715791c",
+      "bytes": 2475436
     },
     {
       "character": "grok-normal",

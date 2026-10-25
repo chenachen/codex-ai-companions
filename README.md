@@ -2,7 +2,7 @@
 
 把 AI 娘带进自己的 Codex。DeepSeek 鲸鱼娘、GPT 龙娘、Claude 娘、Grok 娘、Gemini 双子猫娘，各有正常版与 Q 版，共十只原生 Pet。
 
-本仓库提供 **十只 v5 原生 Pet、一条命令导入和动作预览**。
+本仓库提供 **十只 v5.1 原生 Pet、一条命令导入和动作预览**。
 
 ![五位角色全家福](docs/images/family.png)
 
@@ -79,7 +79,7 @@ Q 版：
 
 ![五只Q版工作后进入待机](docs/images/chibi.gif)
 
-每只包含九种动作和 16 个注视方向。PNG 图集为 1536×2288，使用 `spriteVersionNumber: 2`；v5 指本项目素材修订号。动画播放速度由客户端控制，GIF 用于预览，原始 PNG 用于导入。
+每只包含九种动作和 16 个注视方向。PNG 图集为 1536×2288，使用 `spriteVersionNumber: 2`；v5.1 指本项目素材修订号。动画播放速度由客户端控制，GIF 用于预览，原始 PNG 用于导入。
 
 想查看所有状态和深浅背景：
 
